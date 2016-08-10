@@ -1,0 +1,18 @@
+        <table>
+            <thead>
+                <tr>
+                <volist name="fields" id="field">
+                 <th>{$field}</th>
+                </volist>
+                </tr>
+            </thead>
+            <tbody>
+                <volist name="dataList" id="vo">
+                <tr>
+                    <volist name="fields" id="f">
+                    <td><span style=" padding-right:2px;">{$vo[$f]|default=' '}</span></td>
+                   </volist>
+                </tr>
+                </volist>
+            </tbody>
+        </table>

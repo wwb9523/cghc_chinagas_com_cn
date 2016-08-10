@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>{$msgTitle}</title>
+<meta http-equiv="Content-Type" content="text/html; charset={:C('DEFAULT_CHARSET')}">
+<meta http-equiv='Refresh' content='{$waitSecond};URL={$jumpUrl}'>
+<load href ="__PUBLIC__/Css/style.css" />
+</head>
+<body>
+<!--{$msgTitle} -->
+<div class="showMsg" style="text-align:center">
+<!-- 成功-->
+<eq name="status" value="1">
+    <present name="message" >
+	<h5>{$msgTitle}</h5>
+    <div class="content guery" style="display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline; max-width:280px">{$message}</div>
+    </present>
+</eq>
+<!--失败-->
+<eq name="status" value="0">
+    <present name="error" >
+	<h5>{$msgTitle}</h5>
+    <div class="content guery" style="display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline; max-width:280px">{$message}</div>
+    </present>
+</eq>
+    <div class="bottom">
+	<present name="closeWin" >
+	{:L('msg_system_1')} <span style="color:blue;font-weight:bold">{$waitSecond}</span> {:L('msg_system_2')} <a href="{$jumpUrl}">{:L('close')}</a> {:L('click_this')}
+	</present>
+	<notpresent name="closeWin" >
+	{:L('msg_system_1')} <span style="color:blue;font-weight:bold">{$waitSecond}</span> {:L('msg_system_2')} <a href="{$jumpUrl}">{:L('click_this')}</a> {:L('jump')}
+	</notpresent>
+	</div>
+</div>
+</body>
+</html>

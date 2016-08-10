@@ -1,0 +1,164 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box closed-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>订单检索</h3>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                	<form method="get" action="__URL__">
+					<div class="tab-content default-tab"> <!-- This is the target div. id must match the href of this div's tab -->
+                        <fieldset class="column-left">
+                            <p>
+								<label class="left">下 单 人</label><input class="text-input medium-input" type="text" name="realname" id="realname" />
+							</p>
+                            <p>
+								<label class="left">结果排序</label>
+                                <select name="orderBy" id="orderBy">
+                                	<option value="id">默认排序</option>
+                                    <option value="status">状态</option>
+                                </select>
+                                <select name="orderType" id="orderType">
+                                    <option value="DESC">递减</option>
+                                    <option value="ASC">递增</option>
+                                </select>
+                                <select name="pageSize" id="pageSize">
+                                    <option value="20">每页显示20个</option>
+                                    <option value="50">每页显示50个</option>
+                                    <option value="100">每页显示100个</option>
+                                </select>
+                            	<input class="button" type="submit" id="submit" name="submit" value="搜索" /> <a href="__URL__" >默认</a>
+							</p>
+                        </fieldset>
+                        <fieldset class="column-right">
+                        	<p>
+								<label class="left">状　　态</label>
+                                <select name="status" id="status">
+                                    <option value="0" selected="selected">状态选择</option>
+                                    <option value="2">已经处理</option>
+                                </select>
+							</p>
+<script type="text/javascript">
+/*
+	设定选择值
+*/
+	$("#realname").val('{$Think.get.realname|formatQuery}');
+	$("#status").val('{$Think.get.status}');
+	$("#orderType").val('{$Think.get.orderType}');
+	$("#orderBy").val('{$Think.get.orderBy}');
+	$("#pageSize").val('{$Think.get.pageSize}');
+</script>
+						</fieldset>
+						<div class="clear"></div><!-- End .clear -->
+					</div> <!-- End #tab1 -->
+					</form>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<ul class="shortcut-buttons-set">
+				
+                <li><a class="shortcut-button" href="{:U("Product/index")}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/tabs_48.png" alt="icon" /><br />
+					产品列表
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Product/insert")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/add_48.png" alt="icon" /><br />
+					添加产品
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Category/index")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/app_48.png" alt="icon" /><br />
+					分类管理
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+            <div class="clear"></div><!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>产品订单管理</h3>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                	<form method="post" action="{:U("Order/doCommand")}" id="mainFrom">
+					<div class="tab-content default-tab" id="tab1"> <!-- This is the target div. id must match the href of this div's tab -->
+						<div class="clear"></div><!-- End .clear -->
+                        <table>
+							
+							<thead>
+								<tr>
+								   <th><input class="check-all" type="checkbox" /></th>
+								   <th>ID</th>
+                                   <th>下单人</th>
+								   <th>产品名称</th>
+                                   <th></th>
+								   <th>录入时间</th>
+								   <th>操作</th>
+								</tr>
+								
+							</thead>
+<present name="dataList">
+							<tfoot>
+								<tr>
+									<td colspan="7">
+										<div class="bulk-actions align-left">
+                                            <select name="operate" id="operate" onchange="style_show(this)">
+                                             	<option value="setStatus">显示</option>
+                                            	<option value="unSetStatus">隐藏</option>
+                                             	<option value="orderDelete">删除</option>
+                                          	</select> 
+                                          	
+                                          	<select name="newCategory" id="style_move" style="display:none">
+                                            	{$category|buildSelect=$parentId}
+                                          	</select>
+                                            
+											<input class="button" type="submit" name="submit" value="提交操作">
+										</div>
+										
+										<div class="pagination">
+											{$pageBar}
+										</div> <!-- End .pagination -->
+										<div class="clear"></div>
+									</td>
+								</tr>
+							</tfoot>
+						 
+							<tbody>
+                            <volist name="dataList" id="vo">
+								<tr>
+									<td><input type="checkbox" name="id[]" id="id[]" value="{$vo.id}" /></td>
+									<td>{$vo.id}<input name="shuguangUpdateId[]" type="hidden" id="shuguangUpdateId[]" value="{$vo.id}" /></td>
+                                    <td>{$vo.realname}</td>
+									<td><input class="text-input large-input" name="title[]" id="title[]" value="{$vo.title}" style="{$vo.title_style}"></td>
+                                    <td>{$vo.status|statusIcon=0,$frontUrl,'images/icons/new.gif','未阅'}{$vo.status|statusIcon=2,$frontUrl,'images/icons/accepted.png','已处理'}</td>
+									<td>{$vo.create_time|date="Y-m-d",###}</td>
+									<td>
+										<!-- Icons -->
+										<a href="{:U('Order/detail',array('id'=>$vo['id']))}" title="处理订单"><img src="__PUBLIC__/Admin/images/icons/pencil.png" alt="处理订单" /></a>
+										<a href="{:U('Order/doCommand',array('operate'=>'orderDdelete','id'=>$vo['id']))}" title="删除"><img src="__PUBLIC__/Admin/images/icons/cross.png" alt="删除" /></a> 
+									</td>
+								</tr>
+							</volist>
+<else />
+							<tbody>
+                                <tr>
+                                	<td colspan="7"><p class="no">暂无数据</p></td>
+                                </tr>
+</present>
+							</tbody>
+						</table>
+					</div> <!-- End #tab1 -->
+					</form>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div><!-- End .clear -->
+<include file="Public:footer" />

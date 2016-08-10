@@ -1,0 +1,165 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+<script type="text/javascript">
+    //获取选择ID
+    function getItem() {
+        var selectRow = Array();
+        var obj = document.getElementsByName('id');
+        var result = '';
+        var j = 0;
+        for (var i = 0; i < obj.length; i++) {
+            if (obj[i].checked == true) {
+                selectRow[j] = i + 1;
+                result += obj[i].value + ",";
+                j++;
+            }
+        }
+        return result.substring(0, result.length - 1);
+    }
+
+    /*
+优化optimzeTable
+结构showTable
+检查checkTable
+分析analyzeTable
+修复repairTable
+状态statusTable
+清空clearTable
+删除 delTable
+*/
+    function doCommand(command) {
+        var itemValue = getItem();
+        if (itemValue == '') {
+            alert('没有选择数据表');
+            return false;
+        }
+        $.ajax({
+            type: "POST",
+            url: '{:U("Database/doCommand")}',
+            data: {
+                postData: itemValue,
+                command: command
+            },
+            beforeSend: function() {
+                $("#message").html('<span style="color:#FF0000; margin:10px 0;"><img src="__PUBLIC__/Admin/loading.gif" align="absmiddle">正在提交...</span>');
+            },
+            success: function(data) {
+                switch (data) {
+                case 'errorVerifyCode':
+                    break
+                default:
+                    $("#message").html(data);
+                    $('#message').show();
+                    //alert ('未知错误，请联系管理员');
+                }
+
+            }
+        });
+
+    }
+</script>
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<ul class="shortcut-buttons-set">
+				
+                <li><a class="shortcut-button" href="{:U("Database/query")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/database_48.png" alt="icon" /><br />
+					执行SQL
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Database/export")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/database_export_48.png" alt="icon" /><br />
+					备份数据库
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Database/import")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/database_import_48.png" alt="icon" /><br />
+					恢复数据库
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+            <div class="clear"></div><!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>数据库管理</h3>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                	<form method="post" action="{:U("Database/doCommand")}" id="mainForm">
+					<div class="tab-content default-tab" id="tab1"> <!-- This is the target div. id must match the href of this div's tab -->
+						<div class="clear"></div><!-- End .clear -->
+                        <table>
+							
+							<thead>
+								<tr>
+								   <th><input class="check-all" type="checkbox" /></th>
+								   <th>名称</th>
+								   <th>类型</th>
+                                   <th>字符集</th>
+								   <th>记录数</th>
+                                   <th>大小</th>
+								   <th>碎片</th>
+								   <th>注释</th>
+								</tr>
+								
+							</thead>
+<present name="dataList">
+							<tfoot>
+								<tr>
+									<td colspan="8">
+										<div class="bulk-actions align-left">
+                                        	<input class="checkAll" type="checkbox" /> 全选&nbsp;
+                                            <input class="button" type="button" id=""  name="" value="优化" onclick="doCommand('optimzeTable')" />
+                                            <input class="button" type="button" id=""  name="" value="检查" onclick="doCommand('checkTable')" />
+                                            <input class="button" type="button" id=""  name="" value="分析" onclick="doCommand('analyzeTable')" />
+                                            <input class="button" type="button" id=""  name="" value="修复" onclick="doCommand('repairTable')" />
+                                            <input class="button" type="button" id=""  name="" value="结构" onclick="doCommand('showTable')" />
+										</div>
+										
+										<div class="pagination">
+											数据库大小：{$totalSize|byte_format}
+										</div> <!-- End .pagination -->
+										<div class="clear"></div>
+									</td>
+								</tr>
+							</tfoot>
+						 
+							<tbody>
+                            <volist name="dataList" id="vo">
+								<tr>
+									<td><input type="checkbox" name="id" value="{$vo.Name}" id="{$vo.Name}" /></td>
+									<td><label for="{$vo.Name}">{$vo.Name}</label></td>
+									<td>{$vo.Engine}</td>
+                                    <td>{$vo.Collation}</td>
+									<td>{$vo.Rows}</td>
+                                    <td>{$vo.Data_length|byte_format}</td>
+									<td>{$vo.Data_free|byte_format}</td>
+									<td>{$vo.Comment}</td>
+								</tr>
+							</volist>
+<else />
+							<tbody>
+                                <tr>
+                                	<td colspan="8"><p class="no">暂无数据</p></td>
+                                </tr>
+</present>
+							</tbody>
+						</table>
+					</div> <!-- End #tab1 -->
+					</form>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div><!-- End .clear -->
+            <div id="message" style="display:none;" class="content-box"><!-- Start Content Box -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div><!-- End .clear -->
+<include file="Public:footer" />

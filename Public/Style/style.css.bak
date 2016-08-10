@@ -1,0 +1,426 @@
+@charset "utf-8";
+/* CSS Document */
+html, body { height: 100%;}
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*//*content:"";*/height:100%;float:left;width:0;margin-top:-32767px;/* thank you Erik J - negate effect of float*/}
+body, dl, dt, dd, ol, ul, pre, form, field, p, blockquote, th, td, h1, h2, h3, h4, h5, h6 { font-family: "Microsoft Yahei","宋体", Helvetica, Arial, sans-serif; margin:0; padding:0; font-size:12px}
+.body { text-align:left; background:url(../Images/bg.jpg) repeat-x}
+.body1 { text-align:left; background:url(../Images/bg1.jpg) repeat-x}
+html, body {height: 100%;}
+a:link, a:visited { text-decoration:none; color:#41526b }
+a:hover, a:active { text-decoration:underline; color:#c90303;}
+ul, ol { list-style:none;}
+input, textarea, select, button, file {	font-size:12px;}
+img { border:0;}
+p, li {	line-height:1.8em;}
+.clear { clear:both}
+.fw { font-weight:bolder}
+.clearfix:before,.clearfix:after { content:""; display:table;}
+.clearfix:after { clear:both; }/* For IE 6/7 (trigger hasLayout) */
+.clearfix { zoom:1; }
+
+
+.main { margin:0px auto; width:1000px; height:auto}
+.main .top { width:1000px; height:34px}
+.main .banner { width:1000px; height:127px}
+.main .banner .logo { width:644px; height:88px; margin-left:10px; margin-top:20px; float:left; _display:inline}
+.main .banner .weibo { width:174px; height:32px; margin-right:10px; margin-top:20px; float:right; _display:inline; clear:right; margin-bottom:15px}
+.main .banner .blink { font-size:12px; color:#41526b; float:right; _display:inline; margin-right:10px; margin-top:0px; line-height:24px; width:170px}
+.main a.nav:link, a.nav:visited { height:48px; width:89px; line-height:48px; text-align:center; font-size:14px; color:#fff; float:left; _display:inline}
+.main a.nav:hover, a.nav:active { height:48px; width:89px; line-height:48px; text-align:center; font-size:14px; color:#fff; float:left; _display:inline; background:url(../Images/nav_bg.jpg) repeat-x; text-decoration:none}
+.main .nav_line { height:48px; width:1px; float:left; _display:inline}
+.main .btnbox { width:1000px; height:98px; clear:both}
+.main .btnbox .bbtn1 { margin-left:5px; margin-top:25px; float:left; _display:inline}
+.main .btnbox .bbtn { margin-left:15px; margin-top:25px; float:left; _display:inline}
+
+.main .search { width:1000px; height:41px; clear:both}
+.main .search .search_bg { width:110px; height:24px; float:left; _display:inline; margin-top:9px; background:url(../Images/search_bg.jpg) no-repeat; line-height:24px}
+.main .search .search_bg .sfont { font-size:12px; font-weight:bolder; color:#FFF; margin-left:20px}
+.main .search .search_box { width:600px; height:24px; float:left; _display:inline; margin-top:9px; margin-left:0px; line-height:24px}
+.main .search .search_box .sbfont { margin-left:30px; color:#5a5a5a; font-size:12px}
+.main .search .search_box .sbbtn { width:68px; height:20px; background:url(../Images/search_btn.jpg) no-repeat; border:none; cursor:pointer; margin-left:30px}
+
+.main .news { width:312px; height:289px; margin-top:14px; float:left; _display:inline; background:#f2f2f2}
+.main .news .ntitle { height:312px; height:42px; background:url(../Images/news_bg.jpg) repeat-x; clear:both}
+.main .news .ntitle .news_ico { width:19px; height:18px; margin-left:20px; margin-top:13px; float:left; _display:inline}
+.main .news .ntitle .nfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:42px; margin-left:10px; float:left; _display:inline}
+.main .news .ntitle .nmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:42px}
+.main .news .nlist { width:280px; height:226px; margin-top:10px; margin-left:15px; clear:both}
+.main .news .nlist td { height:30px; border-bottom:#d9d9d9 1px dotted}
+.main .news .nlist .list_ico { width:20px; height:20px; text-align:center}
+.main .news .nlist .list_a { width:190px; line-height:30px}
+.main .news .nlist .list_time { width:70px; line-height:30px; color:#a2a1a1; font-size:12px}
+
+.main .pic01 { width:420px; height:289px; margin-top:14px; float:left; _display:inline; margin-left:10px}
+
+.main .video { width:246px; height:289px; margin-top:14px; float:left; _display:inline; margin-left:10px; border:#eeeeee 1px solid; position: relative;}
+.main .video .vtitle { width:246px; height:37px; background:url(images/video_bg.jpg) repeat-x;}
+.main .video .vtitle .video_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .video .vtitle .vfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .video .vtitle .vmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main #video { height: 214px; overflow: hidden;}
+.main #video ul {clear: both;}
+.main #video li {float: left;}
+.main .video .vbox { width:246px; height:106px; border-bottom:#eeeeee 1px solid; clear:both;display: block;}
+.main .video .vbox .pic02 { width:75px; height:75px; margin-left:15px; margin-top:15px; float:left; _display:inline}
+.main .video .vbox .vfont { width:130px; line-height:18px; margin-left:15px; margin-top:15px; font-size:12px; float:left; _display:inline}
+.main .video .vbtn_box { width:246px; height:38px; background:#f8f8f8;}
+.main .video #prevBtn a { width:30px; height:27px; border:none; margin-top:7px; margin-left:160px; background:url(images/video_btn01.jpg) no-repeat;display: block;text-indent: -9999px;position: absolute; left: -6px}
+.main .video #nextBtn a { width:30px; height:27px; border:none; margin-top:7px; background:url(images/video_btn02.jpg) no-repeat;display: block;text-indent: -9999px;position: absolute; left: 184px;}
+
+.main .institute { width:640px; height:234px; float:left; _display:inline; margin-top:14px}
+.main .institute .ititle { width:640px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .institute .ititle .ifont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .institute .ititle .imore { font-size:12px; color:#6c7784; width:60px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .institute .ititle .imore .iico { width:4px; height:7px; margin-left:6px; margin-bottom:1px}
+.main .institute .ipic { width:144px; height:175px; float:left; _display:inline; margin-left:10px; margin-top:20px}
+.main .institute .ilist { width:460px; height:190px; margin-left:15px; float:left; _display:inline; margin-top:13px}
+.main .institute .ilist .list_ico { width:20px; text-align:center}
+.main .institute .ilist .list_a { width:320px }
+.main .institute .ilist .list_time { width:70px; color:#a2a1a1; font-size:12px}
+
+.main .train { width:348px; height:232px; float:left; _display:inline; margin-left:10px; border:#eeeeee 1px solid; margin-top:14px}
+.main .train .ttitle { width:348px; height:42px; background:url(images/news_bg.jpg) repeat-x}
+.main .train .ttitle a { width: 120px;height: 42px; float:left; display:block}
+.main .train .ttitle .current {background: #ff7e00;}
+.main .train .ttitle .ttitle_ico { width:11px; height:24px; margin-left:20px; margin-top:10px; float:left; _display:inline}
+.main .train .ttitle .ttitle_ico2 { width:18px; height:18px; margin-left:20px; margin-top:12px; float:left; _display:inline}
+.main .train .ttitle .tfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:42px; margin-left:10px;text-decoration: none; float:left; _display:inline}
+
+.main .train .tlist { width:330px; height:170px; margin-left:15px; margin-top:10px}
+.main .train .tlist .list_ico { width:20px; text-align:center}
+.main .train .tlist .list_a { width:320px; height:24px }
+.main .train .tlist .current-content{display: block;}
+.main .train .tlist .content{display: none;}
+.main .train .tpeople { width:100px; height:120px; float:left; _display:inline; margin-top:20px; margin-left:12px}
+.main .train .tpeople .tppic { width:100px; height:84px; float:left; _display:inline}
+.main .train .tpeople .tpfont { line-height:28px; float:left; _display:inline; text-align:center; width:90px}
+.main .train .tpeople .tpfont2 { line-height:18px;  float:left; _display:inline; color:#999; width:90px; text-align:center}
+
+.main .ad_pic { width:1000px; height:147px; margin-top:20px;float: left; clear:both}
+
+.main .download { width:284px; height:234px; float:left; _display:inline; margin-top:20px}
+.main .download .dtitle { width:284px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .download .dtitle .dfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .download .dtitle .dmore { font-size:12px; color:#6c7784; width:60px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .download .dtitle .dmore .dico { width:4px; height:7px; margin-left:6px; margin-bottom:1px}
+.main .download .dlist { width:274px; height:190px; margin-left:8px; float:left; _display:inline; margin-top:10px}
+.main .download .dlist .list_ico { width:20px; text-align:center}
+.main .download .dlist .list_a { width:254px; height:24px }
+.main .download .dtext { width:268px; height:180px; margin-left:8px; margin-top:10px; line-height:20px; font-size:12px; color:#6a6a6a; clear:both}
+
+.main .industry { width:434px; height:234px; float:left; _display:inline; margin-top:20px; margin-left:20px}
+.main .industry .intitle { width:434px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .industry .intitle .infont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .industry .intitle .inmore { font-size:12px; color:#6c7784; width:60px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .industry .intitle .inmore .inico { width:4px; height:7px; margin-left:6px; margin-bottom:1px}
+.main .industry .inlist { width:420px; height:190px; margin-left:8px; float:left; _display:inline; margin-top:10px}
+.main .industry .inlist .list_ico { width:20px; text-align:center}
+.main .industry .inlist .list_a { width:330px; height:24px }
+.main .industry .inlist .list_time { width:70px; color:#a2a1a1; font-size:12px}
+.main .industry .company_pic { width:137px; height:137px; float:left; _display:inline; margin-left:10px; margin-top:30px; margin-right:20px}
+.main .industry .company_title { width:240px; height:20px; font-size:12px; font-weight:bolder; text-align:center; margin-top:20px; float:left; _display:inline}
+.main .industry .company_text { width:240px; height:140px; font-size:12px; text-align:left; margin-top:10px; float:left; _display:inline; color:#6a6a6a; line-height:20px}
+
+.main .activity { width:240px; height:234px; float:left; _display:inline; margin-left:20px; border:#eeeeee 1px solid; margin-top:20px}
+.main .activity .atitle { width:240px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .activity .atitle .atitle_ico { width:25px; height:20px; margin-left:15px; margin-top:10px; float:left; _display:inline}
+.main .activity .atitle .afont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .activity .alist { width:200px; height:170px; margin-left:8px; margin-top:10px}
+.main .activity .alist .list_ico { width:20px; text-align:center}
+.main .activity .alist .list_a { width:200px; height:23px }
+.main .activity .atitle .amore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+
+.main .ad_pic02 { width:242px; height:242px; float:left; _display:inline; margin-left:20px; margin-top:20px}
+
+.main .top10 { width:355px; height:270px; float:left; _display:inline; margin-top:20px}
+.main .top10 .ttitle { width:355px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .top10 .ttitle .tfont { font-size:14px; font-weight:bolder; color:#2f333b; width:200px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .top10 .ttitle .tmore { font-size:12px; color:#6c7784; width:60px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .top10 .ttitle .tmore .tico { width:4px; height:7px; margin-left:6px; margin-bottom:1px}
+.main .top10 .ttext { width:334px; height:160px; margin-left:8px; margin-top:15px; line-height:20px; font-size:12px; color:#6a6a6a; clear:both}
+.main .top10 .tbtn { width:230px; height:37px; background:#528ead; cursor:pointer; margin-left:50px; margin-top:10px; clear:both; border:none; color:#FFF}
+.main .top10 .tbtn a { color:#FFF; text-align:center; line-height:37px; margin-left:22px}
+
+.main .top10r { width:618px; height:270px; float:left; _display:inline; margin-left:25px; border:#eeeeee 1px solid; margin-top:20px; background:url(../Images/top10r_bg.jpg) no-repeat}
+.main .top10r .t10title { width:618px; height:42px; background:url(../Images/top10_bg.jpg) repeat-x}
+.main .top10r .t10title a {width: 150px;height: 42px; float:left; display:block}
+.main .top10r .t10title .current {background: #ff7e00;}
+.main .top10r .t10title .t10title_ico { width:12px; height:24px; margin-left:20px; margin-top:10px; float:left; _display:inline}
+.main .top10r .t10title .t10font { font-size:14px; font-weight:bolder; color:#FFF; line-height:42px; margin-left:10px; float:left; _display:inline}
+.main .top10r .t10title .top10-box-tabs li{width:170px;float: left; margin: 0; padding: 0 !important;}
+.main .top10r .t10title .on{background-color: #FFA500;}
+.main .top10r .t10_pic05 { width:108px; height:92px; margin-top:15px; margin-left:13px; float:left; _display:inline}
+.main .top10r .current-content{display: block;}
+.main .top10r .content{display: none;}
+
+.main .knowledge { width:354px; height:234px; float:left; _display:inline; margin-top:20px}
+.main .knowledge .ktitle { width:354px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .knowledge .ktitle .kfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .knowledge .ktitle .kmore { font-size:12px; color:#6c7784; width:60px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .knowledge .ktitle .kmore .kico { width:4px; height:7px; margin-left:6px; margin-bottom:1px}
+.main .knowledge .klist { width:340px; height:190px; margin-left:8px; float:left; _display:inline; margin-top:10px}
+.main .knowledge .klist .list_ico { width:20px; text-align:center}
+.main .knowledge .klist .list_a { width:254px; height:24px }
+.main .knowledge .ktext { width:268px; height:180px; margin-left:8px; margin-top:10px; line-height:20px; font-size:12px; color:#6a6a6a; clear:both}
+
+.main .article { margin-left:20px}
+
+.main .character { width:250px; height:234px; float:left; _display:inline; margin-left:20px; border:#eeeeee 1px solid; margin-top:20px}
+.main .character .ctitle { width:250px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .character .ctitle .ctitle_ico { width:14px; height:22px; margin-left:15px; margin-top:8px; float:left; _display:inline}
+.main .character .ctitle .cfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .character .ctitle .cmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .character .cpic_border { border:#eeeeee 1px solid; width:99px; height:84px; float:left; display:inline; margin-left:16px; margin-top:9px}
+.main .character .cpic_border .cpic { width:95px; height:80px; margin-left:2px; margin-top:2px}
+
+.main .interview { width:354px; height:290px; float:left; _display:inline; margin-top:20px}
+.main .interview .ititle { width:354px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .interview .ititle .ifont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .interview .ititle .imore { font-size:12px; color:#6c7784; width:60px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .interview .ititle .imore .iico { width:4px; height:7px; margin-left:6px; margin-bottom:1px}
+.main .interview .ipicbox { width:354px; clear:both; float:left; _display:inline}
+.main .interview .ipicbox .ipic_border { width:78px; height:63px; float:left; _display:inline; margin-left:10px; margin-top:15px; border:#eeeeee 1px solid;}
+.main .interview .ipicbox .ipic_border .ipic { width:74px; height:59px; margin-left:2px; margin-top:2px}
+.main .interview .ipicbox .ivtitle { width:250px; height:20px; margin-top:15px; margin-left:10px; font-size:12px; font-weight:bolder; text-align:center; float:left; _display:inline;}
+.main .interview .ipicbox .ivtext { width:240px; line-height:20px; color:#a2a1a1; float:left; _display:inline; margin-left:10px; margin-top:2px}
+
+.main .company { height:290px; margin-left:20px}
+
+.main .member { width:250px; height:290px; float:left; _display:inline; margin-left:20px; border:#eeeeee 1px solid; margin-top:20px}
+.main .member .mtitle { width:250px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .member .mtitle .mtitle_ico { width:17px; height:22px; margin-left:15px; margin-top:8px; float:left; _display:inline}
+.main .member .mtitle .mfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .member .mtitle .mmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .member .mpic { width:94px; height:35px; margin-left:20px; margin-top:6px; float:left; display:inline;}
+
+.main .periodical { width:1000px; height:316px; margin-top:20px;float: left;}
+.main .periodical .ptitle { width:1000px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .periodical .ptitle .pfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .periodical .ptitle .pmore { font-size:12px; color:#6c7784; width:60px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .periodical .ptitle .pmore .pico { width:4px; height:7px; margin-left:6px; margin-bottom:1px}
+.main .periodical .ppicbox { width:140px; height:260px; margin-top:15px; margin-right:20px; margin-left:6px; float:left; _display:inline}
+.main .periodical .ppicbox .ppic09_border { width:138px; height:163px; border:#eeeeee 1px solid; clear:both}
+.main .periodical .ppicbox .ppic09_border .ppic09 { width:132px; height:157px; margin-left:3px; margin-top:3px}
+.main .periodical .ppicbox .ptitle_ico { width:33px; height:33px; margin-top:10px; float:left; _display:inline; margin-left:3px }
+.main .periodical .ppicbox .pa { width:90px; margin-left:8px; float:left; _display:inline; margin-top:10px; line-height:18px}
+.main .periodical .precommend { width:140px; height:35px; margin-top:10px; border-top:#eeeeee 1px solid; border-bottom:#eeeeee 1px solid; clear:both; float:left}
+.main .periodical .precommend .prfont { line-height:35px; margin-left:4px; color:#41526b; font-size:12px}
+
+.main .links { width:998px; height:96px; border:#eeeeee 1px solid; clear:both; margin-top:20px}
+.main .links .ltitle { width:28px; height:96px; background:#528ead; text-align:center; color:#FFF; line-height:17px; float:left; _display:inline}
+.main .links .lfont { width:920px; line-height:26px; margin-left:20px; margin-top:10px; font-size:12px; float:left; _display:inline}
+.main .links .lfont .lline { margin-left:10px; margin-right:10px; color:#6f6f6f }
+
+.foot { height:140px; background:#dfdfdf; clear:both; margin-top:40px}
+.foot .ffont { width:1000px; margin:0px auto; text-align:center; line-height:28px; color:#6d6d6d; font-size:12px; padding-top:20px}
+
+
+
+/*内容css*/
+
+.main .character_nr { width:220px; height:270px; margin-top:14px; float:left; _display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .character_nr .ctitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .character_nr .ctitle .character_nr_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .character_nr .ctitle .cfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .character_nr .ctitle .cmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .character_nr .cbox { width:220px; height:200px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .character_nr .cbox .pic02 { width:75px; height:75px; margin-left:15px; margin-top:15px; float:left; _display:inline}
+
+.main .staff_nr { width:220px; height:270px; margin-top:14px; float:left; display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .staff_nr .stitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .staff_nr .stitle .staff_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .staff_nr .stitle .sfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .staff_nr .stitle .smore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .staff_nr .sbox { width:220px; height:220px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .staff_nr .sbox .sfont { width:130px; line-height:18px; margin-left:15px; margin-top:15px; font-size:12px; float:left; _display:inline}
+.main .staff_nr .sbox .ico{border:solid 1px #eeeeee; margin-right:8px; margin-top:3px;}
+
+.main .inst { width:760px; height:800px; float:left; _display:inline; margin-top:20px}
+.main .inst .ititle { width:760px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .inst .ititle .ifont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .inst .ititle .imore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .inst .itext1{ width:750px;height:80px; text-align:center; font-weight:bolder; color:#2f333b;font-size:16px;}
+.main .inst .itext2{ font-size:14px; font-weight:100;}
+.main .inst .itext3{ font-size:12px; width:700px; margin-top:15px; margin-left:15px; margin-right:15px;}
+.main .inst .itext3 .p{ margin-top:30px; font-size:14px; text-indent:2em}
+
+/*列表css*/
+.main .character_lb { width:220px; height:270px; margin-top:14px; float:left; _display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .character_lb .ctitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .character_lb .ctitle .character_nr_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .character_lb .ctitle .cfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .character_lb .ctitle .cmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .character_lb .cbox { width:220px; height:200px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .character_lb .cbox .pic02 { width:75px; height:75px; margin-left:15px; margin-top:15px; float:left; _display:inline}
+
+.main .staff_lb { width:220px; height:270px; margin-top:14px; float:left; display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .staff_lb .stitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .staff_lb .stitle .staff_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .staff_lb .stitle .sfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .staff_lb .stitle .smore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .staff_lb .sbox { width:220px; height:220px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .staff_lb .sbox .sfont { width:130px; line-height:18px; margin-left:15px; margin-top:15px; font-size:12px; float:left; _display:inline}
+.main .staff_lb .sbox .ico{border:solid 1px #eeeeee; margin-right:8px; margin-top:3px;}
+
+.main .inst_lb { width:760px; height:800px; float:left; _display:inline; margin-top:20px}
+.main .inst_lb .ititle { width:760px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .inst_lb .ititle .ifont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .inst_lb .ititle .imore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+
+.main .inst_lb .itext3{ font-size:12px; width:750px; margin-top:15px; margin-left:15px; margin-right:15px;}
+.main .inst_lb .itext3 .p{ margin-top:30px; font-size:14px}
+.main .inst_lb .itext3 .itext4{width:750px;}
+.main .inst_lb .itext3 .itext4 .itable{width:750; margin-top:10px; margin-bottom:30px; border:solid 0px; font-size:2;}
+.main .inst_lb .itext3 .itext4 .itable .itd{ text-align:center; width:15px}
+.main .inst_lb .itext3 .itext4 .itable .ifont{ font-size:15px; width:570px; color:#006699;}
+.main .inst_lb .itext3 .itext4 .itable .ifont3{ font-size:15px; width:100px}
+
+/*专家培训css*/
+.main .zjpx { width:1000px; height:800px; float:left; _display:inline; margin-top:20px}
+.main .zjpx .ztitle { width:1000px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .zjpx .ztitle .zfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .zjpx .ztitle .zmore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px} 
+.main .zjpx .zvideo { width:1000px; border-bottom:solid 1px #CCCCCC; height:730px;}
+.main .zjpx .zvideo .ztd .zimg{ border:solid 3px #eeeeee; width:217px; height: 184px;}
+.main .zjpx .zvideo .ztd { text-align:center;}
+.main .zjpx .zvideo .ztd1 { font-size:12px; text-align:left; width: 220px;}
+.main .zjpx .zvideo .ztd1 .zfont {text-align:left; font-size:12px; color:#666666;}
+.main .zjpx .zbottom { text-align:right; margin-top:5px; height:13px; padding-right:30px;}
+.main .zjpx .zbottom .zpage{ border:solid 1px #CCCCCC; padding: 2px 7px; margin-left:5px; color:#CCCCCC;}
+
+
+/*网上办公css*/
+.main .bg { width:1000px; height:400px; float:left; _display:inline; margin-top:20px}
+.main .bg .bgtitle { width:1000px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .bg .bgtitle .bgfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .bg .bgtitle .bgmore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .bg .bgcon .bgtab .bgtr .bgtd { padding-right:20px;}
+.main .bg .bgcon .bgtab .bgtr .bgtd .bgima {width:307px; height:103px;}
+.main .bg .bgcon .bgtab .bgtr .bgtd { width:357px; height:153px; text-align:left;}
+
+/*下载css*/
+
+.main .character_xz { width:220px; height:270px; margin-top:14px; float:left; _display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .character_xz .xztitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .character_xz .xztitle .character_xz_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .character_xz .xztitle .xzfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .character_xz .xztitle .xzmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .character_xz .xzbox { width:220px; height:200px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .character_xz .xzbox .pic02 { width:75px; height:75px; margin-left:15px; margin-top:15px; float:left; _display:inline}
+
+.main .staff_xz { width:220px; height:270px; margin-top:14px; float:left; display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .staff_xz .xztitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .staff_xz .xztitle .xztaff_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .staff_xz .xztitle .xzfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .staff_xz .xztitle .xzmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .staff_xz .xzbox { width:220px; height:220px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .staff_xz .xzbox .xzfont { width:130px; line-height:18px; margin-left:15px; margin-top:15px; font-size:12px; float:left; _display:inline}
+.main .staff_xz .xzbox .ico{border:solid 1px #eeeeee; margin-right:8px; margin-top:3px;}
+
+.main .xz { width:760px; height:800px; float:left; _display:inline; margin-top:20px}
+.main .xz .xztitle { width:760px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .xz .xztitle .xzfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .xz .xztitle .xzmore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .xz .xztext1{ width:760px;height:50px; text-align:left; font-weight:bolder; color:#2f333b;font-size:19px; padding-left:24px; padding-top:30px;}
+.main .xz .xztext2{ padding-left:24px;}
+.main .xz .xztext2 .xztable { border-collapse:collapse;}
+.main .xz .xztext2 .xztable .xztd { border:solid 1px #999999; background:#E7E7E7; width:90px; height:27px; text-align:center;}
+.main .xz .xztext2 .xztable .xztd1{ border:solid 1px #999999; padding-left:25px; width:500px;}
+.main .xz .xztext3{ margin-top:22px; margin-left:24px;}
+.main .xz .xztext4 { font-weight:bolder; font-size:15px; margin-left:24px; border-bottom:solid 2px #C0C0C0; margin-top:40px; padding-bottom:8px; margin-right:20px; width:670px;}
+.main .xz .xztext5 { margin-top:10px; margin-left:24px;}
+.main .xz .xztext5 .xzp { text-indent:2em; margin-left:8px; margin-right:13px; width:640px; font-size:14px; margin-top:12px;}
+
+
+/*访谈css*/
+.main .character_ft { width:220px; height:270px; margin-top:14px; float:left; _display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .character_ft .fttitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .character_ft .fttitle .character_ft_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .character_ft .fttitle .ftfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .character_ft .fttitle .ftmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .character_ft .ftbox { width:220px; height:200px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .character_ft .ftbox .pic02 { width:75px; height:75px; margin-left:15px; margin-top:15px; float:left; _display:inline}
+
+
+.main .staff_ft { width:220px; height:270px; margin-top:14px; float:left; display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .staff_ft .fttitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .staff_ft .fttitle .ft_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .staff_ft .fttitle .ftfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .staff_ft .fttitle .ftmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .staff_ft .ftbox { width:220px; height:220px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .staff_ft .ftbox .ftfont { width:130px; line-height:18px; margin-left:15px; margin-top:15px; font-size:12px; float:left; _display:inline}
+.main .staff_ft .ftbox .ico{border:solid 1px #eeeeee; margin-right:8px; margin-top:3px;}
+
+.main .ft { width:760px; height:800px; float:left; _display:inline; margin-top:20px}
+.main .ft .fttitle { width:760px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .ft .fttitle .ftfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .ft .fttitle .ftmore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .ft .ftttext {}
+.main .ft .fttext .fttext1{ width:760px; height:122px; margin-top:20px; padding-bottom:20px; border-bottom:#D5D5D5 1px solid;}
+.main .ft .fttext .fttext1 .fttable{width:757px; height:122px; }
+.main .ft .fttext .fttext1 .fttable .fttd1 {width:146px; }
+.main .ft .fttext .fttext1 .fttable .fttd2 { width:595px; height:9px; }
+.main .ft .fttext .fttext1 .fttable .fttd3 {height:23px; color:#0000FF; font-size:16px; padding-left:20px;}
+.main .ft .fttext .fttext1 .fttable .fttd4 {height:11px;}
+.main .ft .fttext .fttext1 .fttable .fttd5 {height:17px; text-indent:2em; color:#6F6F6F; font-size:13px; padding-left:20px;}
+.main .ft .fttext .fttext1 .fttable .fttd6 {height:15px; color:#6F6F6F; padding-left:20px; font-size:13px;}
+.main .ft .fttext .fttext1 .fttable .fttd7 {height:16px; color:#6F6F6F; padding-left:20px; font-size:13px;}
+.main .ft .fttext .fttext1 .fttable .fttd8 {height:13px;}
+.main .ft .ftbottom { text-align:right; margin-top:5px; height:13px; padding-right:30px;}
+.main .ft .ftbottom .ftpage{ border:solid 1px #CCCCCC; padding: 2px 7px; margin-left:5px; color:#CCCCCC;}
+
+/*优秀会员css*/
+
+.main .yxhy { width:1000px; height:800px; float:left; _display:inline; margin-top:20px}
+.main .yxhy .yxtitle { width:1000px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .yxhy .yxtitle .yxfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .yxhy .yxtitle .yxmore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px} 
+.main .yxhy .yxcon { margin-top:25px; padding-left:23px;}
+.main .yxhy .yxcon .yxtd { padding-top:10px; text-align:center; padding-bottom:10px;}
+.main .yxhy .yxcon .yxtd1 { padding-right:13px;}
+
+/*专业期刊css*/
+
+.main .zyqk { width:1000px; height:900px; float:left; _display:inline; margin-top:20px}
+.main .zyqk .zytitle { width:1000px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .zyqk .zytitle .zyfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .zyqk .zytitle .zymore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px} 
+.main .zyqk .zycon { margin-top:10px; padding-left:23px;}
+.main .zyqk .zycon .zytr { padding-top:10px;}
+.main .zyqk .zycon .zytr .zytd { padding-right:28px; padding-top:20px;}
+.main .zyqk .zycon .zytr .zytd .zydiv { border:1px solid #C8C8C8; padding:2px;}
+.main .zyqk .zycon .zytd1 { height:50px; padding-left:5px;}
+.main .zyqk .zycon .zytd1 .zyimg { float:left;}
+.main .zyqk .zycon .zytd2 { height:28px; padding-left:5px;}
+.main .zyqk .zycon .zytd2 .zydiv1 { border-top:solid 1px #DADADA; border-bottom:solid 1px #DADADA; width:120px; padding-top:5px; padding-bottom:5px;}
+
+/*视频中心css*/
+
+.main .character_sp { width:220px; height:270px; margin-top:14px; float:left; _display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .character_sp .ctitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .character_sp .ctitle .character_nr_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .character_sp .ctitle .cfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .character_sp .ctitle .cmore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .character_sp .cbox { width:220px; height:200px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .character_sp .cbox .pic02 { width:75px; height:75px; margin-left:15px; margin-top:15px; float:left; _display:inline}
+
+
+.main .staff_sp { width:220px; height:270px; margin-top:14px; float:left; display:inline; margin-left:10px; border:#eeeeee 1px solid}
+.main .staff_sp .stitle { width:220px; height:37px; background:url(../Images/video_bg.jpg) repeat-x}
+.main .staff_sp .stitle .staff_ico { width:18px; height:18px; margin-left:20px; margin-top:11px; float:left; _display:inline}
+.main .staff_sp .stitle .sfont { font-size:14px; font-weight:bolder; color:#FFF; line-height:37px; margin-left:10px; float:left; _display:inline}
+.main .staff_sp .stitle .smore { font-size:12px; color:#ebebeb; float:right; _display:inline; margin-right:15px; line-height:37px}
+.main .staff_sp .sbox { width:220px; height:220px; border-bottom:#eeeeee 1px solid; clear:both; text-align:center; text-align:center;}
+.main .staff_sp .sbox .sfont { width:130px; line-height:18px; margin-left:15px; margin-top:15px; font-size:12px; float:left; _display:inline}
+.main .staff_sp .sbox .ico{border:solid 1px #eeeeee; margin-right:8px; margin-top:3px;}
+
+
+.main .sp { width:760px; height:800px; float:left; _display:inline; margin-top:20px}
+.main .sp .sptitle { width:760px; height:28px; border-bottom:#eeeeee 1px solid}
+.main .sp .sptitle .spfont { font-size:14px; font-weight:bolder; color:#2f333b; width:112px; height:28px; line-height:28px; float:left; _display:inline; background:#ececec; text-align:center}
+.main .sp .sptitle .spmore { font-size:12px; color:#6c7784; width:110px; height:28px; float:right; _display:inline; background:#ececec; text-align:center; line-height:28px}
+.main .sp .spcon { border-bottom:solid 1px #D1D1D1; padding-bottom:30px;}
+.main .sp .spcon .sptd { padding-top:20px; padding-left:5px; padding-right:20px; padding-bottom:13px; padding-left:20px;}
+.main .sp .zbottom { text-align:right; margin-top:5px; height:13px; padding-right:30px; padding-top:20px;}
+.main .sp .zbottom .zpage{ border:solid 1px #CCCCCC; padding: 2px 7px; margin-left:5px; color:#CCCCCC;}

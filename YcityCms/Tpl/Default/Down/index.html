@@ -1,0 +1,72 @@
+﻿<taglib name="YC"/>
+    <include file="Public:contentHeader"/>
+        <!--<div class="ad_pic">
+            <YC:getData model="Ad" name="ad1" id="row" limit="1" where="category_id=37" order="id DESC">
+                <if condition="$row['ad_type'] eq 'image'">
+                    <a href="{$row.link_url}" target="_blank">
+                        <img src="__ROOT__/Uploads/{$row.attach_file}" alt="{$row.attach_alt}" width="1000" height="95"/>
+                    </a>
+                <elseif condition="$row['ad_type'] eq 'flash'" />
+                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="115" width="1000">
+                        <param name="quality" value="high" />
+                        <param name="movie" value="__ROOT__/Uploads/{$row.attach_file}" />
+                        <embed width="1000" height="115" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="__ROOT__/Uploads/{$row.attach_file}" type="application/x-shockwave-flash"></embed>
+                    </object>
+                </if>
+            </YC:getData>
+        </div>-->
+<div class="listleft_s">
+    <div class="listin">
+        <div class="listlbg">
+            <div class="ltbox"><span class="ltfont">{$data.title}</span></div>
+        </div>
+        <table  cellpadding="0" cellspacing="0" class="listtab">
+            <volist name="list_type" id="type">
+                <tr>
+                    <td width="20px" class="listtd"><img src="__PUBLIC__/Images/listico.png"></td>
+                    <td class="listtd"><a href="{:U('Down/index',array('item'=>$type['id']))}">{$type['title']}</a></td>
+                </tr>
+
+            </volist>
+        </table>
+    </div>
+    <include file="Public/link"/>
+</div>
+
+    <div class="listright_s">
+        <div class="listrightin">
+            <div class="ltitle">
+                <div class="lrtitle">
+                <!--<div class="lrtitle"><span class="lrlink"><a href="__ROOT__/">首页</a>&gt;<a href="{:U('News/index',array('category'=>$data['id']))}">{$data.title}</a></span><img src="__PUBLIC__/Images/listico2.png" class="lrico2"><span>{$data.title}</span></div>-->
+                <span class="lrlink">
+                    <a href="__ROOT__">首页</a>
+                                        <volist name="top_link" id="link">
+                                            <if condition="$i eq 1">&gt;<a class="tl" href="{:U('Down/index')}">{$link['title']}</a>
+                                             <else/> &gt;<a class="tl" href="{:U('Down/index',array('item'=>$link['id']))}">{$link['title']}</a>
+                                            </if>
+                                        </volist>
+                                    </span>
+                                <div class="blue"></div><span>{$data.title}</span></div>
+            </div>
+            <table cellpadding="0" cellspacing="0" class="listtable">
+                <volist name="dataContentList" id="row">
+                    <tr>
+                        <td class="ltd1"><img src="__PUBLIC__/Images/list_ico.jpg" /></td>
+                        <td class="ltd2">
+                            <if condition="$row['link_url'] neq ''">
+                                <a href="{$row.link_url}" target="_blank" style="{$row.title_style}" title="{$row.title}">{$row.title|msubstr=0,36}</a>
+                                <else/>
+                                <a href="{:U('Down/detail',array('item'=>$row['id']))}" style="{$row.title_style}" title="{$row.title}">{$row.title|msubstr=0,36}</a>
+                            </if>
+                        </td>
+                        <td class="ltd3">{$row.create_time|date='Y-m-d',###}</td>
+                    </tr>
+                </volist>
+            </table>
+            <div class="lpage">{$pageContentBar}</div>
+        </div>
+    </div>
+</div>
+    <include file="Public:footer" />
+</body>
+</html>

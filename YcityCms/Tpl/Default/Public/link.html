@@ -1,0 +1,34 @@
+<div class="link_left">
+<div class="leftbtn">
+    <div class="leftbtn_in">
+    <div class="link">
+        <div class="dlink_img"> <img src="__PUBLIC__/Images/download.png" class="link_img"></div>
+        <a href="{:U('Down/index')}">下载专区</a>
+    </div>
+    <div class="link">
+        <div class="dlink_img"> <img src="__PUBLIC__/Images/pingjian.png" class="link_img"></div>
+        <YC:getData model="Category" name="comment" id="row" where="title='评建专区' " >
+            <a href="{:U('News/index',array('item'=>$row['id']))}">评建专区</a>
+        </YC:getData>
+    </div>
+    <div class="link3">
+        <div class="dlink_img">  <img src="__PUBLIC__/Images/jingping.png" class="link_img"></div>
+    <YC:getData model="Category" name="party" id="item" where="title='精品课程'" >
+        <a href="{:U('Course/index',array('item'=>$item['id']))}">精品课程</a>
+    </YC:getData>
+    </div>
+    </div>
+</div>
+<div class="Flinks">
+    <div class="lkfont"><span>友情链接</span></div>
+    <table class="lka">
+        <YC:getData model="Link" name="flinks_links" id="flinks_link" limit="8" where="1=1">
+        </YC:getData>
+        <volist name="flinks_links" id="link" mod="2">
+                <eq name="mod" value="0"><tr></eq>
+                <td><a href="{$link['link_url']}">{$link['title']}</a></td>
+            <eq name="mod" value="1"></tr></eq>
+        </volist>
+    </table>
+</div>
+</div>

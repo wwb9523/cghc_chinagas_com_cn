@@ -1,0 +1,62 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿
+    <!DOCTYPE><!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title><?php if(isset($contentDetail)): ?><?php echo ($contentDetail["title"]); ?>-<?php else: ?><?php if(isset($moduleTitle)): ?><?php echo ($moduleTitle); ?>-<?php endif; ?><?php endif; ?><?php echo ($sysConfig["site_name"]); ?>-<?php echo ($sysConfig["seo_title"]); ?>-Powered by Y-city</title><meta name="keywords" content="<?php echo (($contentDetail["keyword"])?($contentDetail["keyword"]):$sysConfig['seo_keyword']); ?>" /><meta name="description" content="<?php echo (($contentDetail["description"])?($contentDetail["description"]):$sysConfig['seo_description']); ?>" /><meta http-equiv="X-UA-Compatible" content="IE=7"/><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/><link rel="stylesheet" href="__PUBLIC__/Style/style2.css" type="text/css"><script type="text/javascript" src="__PUBLIC__/Js/jquery-1.9.1.min.js"></script><script type="text/javascript" src="__PUBLIC__/Js/marquee.js"></script><script type="text/javascript">        function showMenu (baseId, divId) {
+            baseID = document.getElementById(baseId);
+            divID  = document.getElementById(divId);
+            if (showMenu.timer) clearTimeout(showMenu.timer);
+            hideCur();
+            divID.style.display = 'block';
+            if(isOver(divId,'nav')){
+
+            }
+
+            showMenu.cur = divID;
+
+            if (! divID.isCreate) {
+                divID.isCreate = true;
+                //divID.timer = 0;
+                divID.onmouseover = function () {
+
+                    if (showMenu.timer) clearTimeout(showMenu.timer);
+                    hideCur();
+                    divID.style.display = 'block';
+
+                };
+
+                function hide () {
+                    showMenu.timer = divID.style.display = 'none';
+                }
+
+                divID.onmouseout = hide;
+                baseID.onmouseout = hide;
+            }
+            function hideCur () {
+                showMenu.cur && (showMenu.cur.style.display = 'none');
+            }
+        }
+
+        function isOver(div11,div22) {
+            var div1 = $('#'+div11);
+            var div2 = $('.'+div22);
+            div1Width=div1.width();
+            div2Width = div2.width();
+            div1Left = div1.offset().left;
+            div1Top = div1.offset().top;
+            div2Left = div2.offset().left;
+            div1Right = div1Left+div1Width;
+            div2Right = div2Left+div2Width;
+            if(div1Right>div2Right){
+                divID.style.left=80-div1Width;
+                divID.style.right=0;
+            }
+        }
+    </script><script language="javascript">        window.onload = function(){
+            var mar = new Marquee("marquee");
+            mar.Direction = 2;
+            mar.Width = 260;
+            mar.Height = 245;
+            mar.Speed = 36;
+            mar.Space = 1;
+            mar.Tag = "ul";
+            mar.Start();
+        }
+    </script></head><body class="body2"><div class="banner"><div class="logo"><a href="__ROOT__"><img src="__PUBLIC__/Images/college_logo.png"></a></div><div class="header_font"><a href="__ROOT__"><img src="__PUBLIC__/Images/header_font.png"></a></div></div><div class="nav"><ul><li class="home"><a class="on" href="__ROOT__"><b>首页</b></a></li><li><span hidden="hidden" class="<?php echo ($id=$pageList[0]['id']); ?>"></span><a href="<?php echo U('Page/detail');?>" id="nl_<?php echo ($id); ?>"  onMouseOver="showMenu('nl_<?php echo ($id); ?>','subnav<?php echo ($id); ?>');" ><b><?php echo ($pageList[0]['title']); ?></b></a><div id="subnav<?php echo ($id); ?>" class="subnav"><?php ($length=count($pageList));?><?php if(is_array($pageList)): $key = 0; $__LIST__ = $pageList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($key % 2 );++$key;?><?php if(($key)  !=  "1"): ?><a href="<?php echo U('Page/detail',array('item'=>$row['id']));?>"><?php echo ($row['title']); ?></a><?php if(($key)  !=  $length): ?>&nbsp;|&nbsp;<?php endif; ?><?php endif; ?><?php endforeach; endif; else: echo "" ;endif; ?></div></li><?php if(is_array($dataList)): $i = 0; $__LIST__ = $dataList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><li><span hidden="hidden" class="<?php echo ($id=$item[0]['id']); ?>"></span><a href="<?php echo U('News/index',array('item'=>$item[0]['id']));?>" id="nl_<?php echo ($id); ?>"  onMouseOver="showMenu('nl_<?php echo ($id); ?>','subnav<?php echo ($id); ?>');"><b><?php echo ($item[0]['title']); ?></b></a><?php if($item[1]['id'] != ''): ?><div id="subnav<?php echo ($id); ?>" class="subnav" ><?php ($length=count($item));?><?php if(is_array($item)): $key = 0; $__LIST__ = $item;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($key % 2 );++$key;?><?php if(($key)  !=  "1"): ?><a href="<?php echo U('News/index',array('item'=>$row['id']));?>"><?php echo ($row['title']); ?></a><?php if(($key)  !=  $length): ?>&nbsp;|&nbsp;<?php endif; ?><?php endif; ?><?php endforeach; endif; else: echo "" ;endif; ?></div><?php endif; ?></li><?php endforeach; endif; else: echo "" ;endif; ?></ul></div><div class="main"><!--<div class="ad_pic"><?php $condition = 'category_id=37'; $order = 'id DESC'; $limit = '1'; if(!isset($Ad)) : $AdDao = M('Ad'); endif; if(!isset($ad1)) :$ad1 = $AdDao->Where($condition)->Order($order)->Limit($limit)->findAll();endif; if(is_array($ad1)): $i = 0; $__LIST__ = $ad1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): ++$i;$mod = ($i % 2 ); $currentTime = time();?><?php if($row['ad_type'] == 'image'): ?><a href="<?php echo ($row["link_url"]); ?>" target="_blank"><img src="__ROOT__/Uploads/<?php echo ($row["attach_file"]); ?>" alt="<?php echo ($row["attach_alt"]); ?>" width="1000" height="95"/></a><?php elseif($row['ad_type'] == 'flash'): ?><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="115" width="1000"><param name="quality" value="high" /><param name="movie" value="__ROOT__/Uploads/<?php echo ($row["attach_file"]); ?>" /><embed width="1000" height="115" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="__ROOT__/Uploads/<?php echo ($row["attach_file"]); ?>" type="application/x-shockwave-flash"></embed></object><?php endif; ?><?php endforeach; endif; else: echo "" ;endif; ?></div>--><div class="listleft_s"><div class="listin"><div class="listlbg"><div class="ltbox"><span class="ltfont"><?php echo ($data["title"]); ?></span></div></div><table  cellpadding="0" cellspacing="0" class="listtab"><?php if(is_array($list_type)): $i = 0; $__LIST__ = $list_type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$type): $mod = ($i % 2 );++$i;?><tr><td width="20px" class="listtd"><img src="__PUBLIC__/Images/listico.png"></td><td class="listtd"><a href="<?php echo U('Down/index',array('item'=>$type['id']));?>"><?php echo ($type['title']); ?></a></td></tr><?php endforeach; endif; else: echo "" ;endif; ?></table></div><div class="link_left"><div class="leftbtn"><div class="leftbtn_in"><div class="link"><div class="dlink_img"><img src="__PUBLIC__/Images/download.png" class="link_img"></div><a href="<?php echo U('Down/index');?>">下载专区</a></div><div class="link"><div class="dlink_img"><img src="__PUBLIC__/Images/pingjian.png" class="link_img"></div><?php $condition = 'title=\'评建专区\' '; $order = ''; $limit = 10; if(!isset($Category)) : $CategoryDao = M('Category'); endif; if(!isset($comment)) :$comment = $CategoryDao->Where($condition)->Order($order)->Limit($limit)->findAll();endif; if(is_array($comment)): $i = 0; $__LIST__ = $comment;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): ++$i;$mod = ($i % 2 ); $currentTime = time();?><a href="<?php echo U('News/index',array('item'=>$row['id']));?>">评建专区</a><?php endforeach; endif; else: echo "" ;endif; ?></div><div class="link3"><div class="dlink_img"><img src="__PUBLIC__/Images/jingping.png" class="link_img"></div><?php $condition = 'title=\'精品课程\''; $order = ''; $limit = 10; if(!isset($Category)) : $CategoryDao = M('Category'); endif; if(!isset($party)) :$party = $CategoryDao->Where($condition)->Order($order)->Limit($limit)->findAll();endif; if(is_array($party)): $i = 0; $__LIST__ = $party;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): ++$i;$mod = ($i % 2 ); $currentTime = time();?><a href="<?php echo U('Course/index',array('item'=>$item['id']));?>">精品课程</a><?php endforeach; endif; else: echo "" ;endif; ?></div></div></div><div class="Flinks"><div class="lkfont"><span>友情链接</span></div><table class="lka"><?php $condition = '1=1'; $order = ''; $limit = '8'; if(!isset($Link)) : $LinkDao = M('Link'); endif; if(!isset($flinks_links)) :$flinks_links = $LinkDao->Where($condition)->Order($order)->Limit($limit)->findAll();endif; if(is_array($flinks_links)): $i = 0; $__LIST__ = $flinks_links;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$flinks_link): ++$i;$mod = ($i % 2 ); $currentTime = time();?><?php endforeach; endif; else: echo "" ;endif; ?><?php if(is_array($flinks_links)): $i = 0; $__LIST__ = $flinks_links;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$link): $mod = ($i % 2 );++$i;?><?php if(($mod)  ==  "0"): ?><tr><?php endif; ?><td><a href="<?php echo ($link['link_url']); ?>"><?php echo ($link['title']); ?></a></td><?php if(($mod)  ==  "1"): ?></tr><?php endif; ?><?php endforeach; endif; else: echo "" ;endif; ?></table></div></div></div><div class="listright_s"><div class="listrightin"><div class="ltitle"><div class="lrtitle"><!--<div class="lrtitle"><span class="lrlink"><a href="__ROOT__/">首页</a>&gt;<a href="<?php echo U('News/index',array('category'=>$data['id']));?>"><?php echo ($data["title"]); ?></a></span><img src="__PUBLIC__/Images/listico2.png" class="lrico2"><span><?php echo ($data["title"]); ?></span></div>--><span class="lrlink"><a href="__ROOT__">首页</a><?php if(is_array($top_link)): $i = 0; $__LIST__ = $top_link;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$link): $mod = ($i % 2 );++$i;?><?php if($i == 1): ?>&gt;<a class="tl" href="<?php echo U('Down/index');?>"><?php echo ($link['title']); ?></a><?php else: ?> &gt;<a class="tl" href="<?php echo U('Down/index',array('item'=>$link['id']));?>"><?php echo ($link['title']); ?></a><?php endif; ?><?php endforeach; endif; else: echo "" ;endif; ?></span><div class="blue"></div><span><?php echo ($data["title"]); ?></span></div></div><table cellpadding="0" cellspacing="0" class="listtable"><?php if(is_array($dataContentList)): $i = 0; $__LIST__ = $dataContentList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><tr><td class="ltd1"><img src="__PUBLIC__/Images/list_ico.jpg" /></td><td class="ltd2"><?php if($row['link_url'] != ''): ?><a href="<?php echo ($row["link_url"]); ?>" target="_blank" style="<?php echo ($row["title_style"]); ?>" title="<?php echo ($row["title"]); ?>"><?php echo (msubstr($row["title"],0,36)); ?></a><?php else: ?><a href="<?php echo U('Down/detail',array('item'=>$row['id']));?>" style="<?php echo ($row["title_style"]); ?>" title="<?php echo ($row["title"]); ?>"><?php echo (msubstr($row["title"],0,36)); ?></a><?php endif; ?></td><td class="ltd3"><?php echo (date('Y-m-d',$row["create_time"])); ?></td></tr><?php endforeach; endif; else: echo "" ;endif; ?></table><div class="lpage"><?php echo ($pageContentBar); ?></div></div></div></div><div class="foot"><div class="ftbox"><div style="display:none"><a href="http://www.nikeairjordans.net" title="Cheap Nike Air Jordans For Sale" >Cheap Nike Air Jordans For Sale</a></div><img src="__PUBLIC__/Images/foot_logo.png" class="ftlogo"><div class="ftfont">版权所有：天津城建大学&nbsp;&nbsp;经济与管理学院<br/>Copyright &copy; 2012 天津城建大学&nbsp;&nbsp;经济与管理学院 All rights reserved.<br/>技术支持：<a href="http://www.y-city.net.cn">新城网络</a></div></div></div></body></html></body></html>

@@ -1,0 +1,34 @@
+﻿<taglib name="YC"/>
+    <include file="Public/contentHeader"/>
+
+<div class="listleft">
+    <include file="Public/notices"/>
+    <include file="Public/link"/>
+    </div>
+
+<div class="listright">
+    <div class="listrightin">
+        <div class="ltitle">
+            <div class="lrtitle">
+                    <span class="lrlink">
+                        <a href="__ROOT__/" class="home">首页</a>&gt;<a  class="tl" href="{:U('Page/detail',array('item'=>$contentDetail['id']))}">{$name}</a>
+                    </span>
+                <div class="blue"></div><span>{$name}</span>
+                </div>
+        </div>
+
+        <div class="page_content">
+            <div class="texttitle">{$contentDetail.title}</div>
+            <div class="texttime"><b>发布时间：</b>{$contentDetail.create_time|date="Y-m-d",###}</div>
+            <div class="textbox">
+                <div class="text">{$contentDetail.content}</div>
+            </div>
+            </div>
+                <div class="lpage"></div>
+
+    </div>
+</div>
+    </div>
+    <include file="Public:footer" />
+</body>
+</html>

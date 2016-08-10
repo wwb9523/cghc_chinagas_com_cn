@@ -1,0 +1,135 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box closed-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>操作日志检索</h3>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                	<form method="get" action="__URL__">
+					<div class="tab-content default-tab"> <!-- This is the target div. id must match the href of this div's tab -->
+                        <fieldset class="column-left">
+                            <p>
+								<label class="left">用户帐号</label><input class="text-input medium-input" type="text" name="username" id="username" />
+							</p>
+                            <p>
+								<label class="left">登录IP&nbsp;&nbsp;&nbsp;</label><input class="text-input medium-input" type="text" name="ip" id="ip" />
+							</p>
+                        </fieldset>
+                        <fieldset class="column-right">
+                            <p>
+								<label class="left">用户ID&nbsp;&nbsp;&nbsp;</label><input class="text-input medium-input" type="text" name="userId" id="userId" />
+							</p>
+                        	<p>
+								<label class="left">结果排序</label>
+                                <select name="orderBy" id="orderBy">
+                              		<option value="id" selected="selected">默认排序</option>
+                              		<option value="username">用户名</option>
+                              	</select>
+                            	<select name="orderType" id="orderType">
+                              		<option value="DESC">递减</option>
+                              		<option value="ASC">递增</option>
+                              	</select>
+                            	<select name="pageSize" id="pageSize">
+                              		<option value="20">每页显示20个</option>
+                              		<option value="50">每页显示50个</option>
+                              		<option value="100">每页显示100个</option>
+                              	</select>
+                                <input class="button" type="submit" id="submit" name="submit" value="搜索" /> <a href="__URL__" >默认</a>
+							</p>
+<script type="text/javascript">
+/*
+	设定选择值
+*/
+    $("#username").val('{$Think.get.username|formatQuery}');
+    $("#userId").val('{$Think.get.userId}');
+    $("#orderType").val('{$Think.get.orderType}');
+    $("#orderBy").val('{$Think.get.orderBy}');
+    $("#pageSize").val('{$Think.get.pageSize}');
+</script>
+						</fieldset>
+						<div class="clear"></div><!-- End .clear -->
+					</div> <!-- End #tab1 -->
+					</form>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>操作日志管理</h3>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                	<form method="post" action="{:U("AdminLog/doCommand")}" id="mainForm">
+					<div class="tab-content default-tab" id="tab1"> <!-- This is the target div. id must match the href of this div's tab -->
+						<div class="clear"></div><!-- End .clear -->
+                        <table>
+							
+							<thead>
+								<tr>
+								   <th><input class="check-all" type="checkbox" /></th>
+								   <th>ID</th>
+								   <th>操作记录</th>
+                                   <th>操作IP</th>
+                                   <th>操作用户</th>
+								   <th>记录时间</th>
+								</tr>
+								
+							</thead>
+<present name="dataList">
+							<tfoot>
+								<tr>
+									<td colspan="6">
+										<div class="bulk-actions align-left">
+                                        	<input class="checkAll" type="checkbox" /> 全选&nbsp;
+                                            <select name="operate" id="operate">
+                                            	<option value="" selected="selected">选择操作</option>
+                                             	<option value="delete">删除</option>
+                                          	</select> 
+											<input class="button" type="submit" name="submit" value="提交操作">
+										</div>
+										
+										<div class="pagination">
+											{$pageBar}
+										</div> <!-- End .pagination -->
+										<div class="clear"></div>
+									</td>
+								</tr>
+							</tfoot>
+						 
+							<tbody>
+                            <volist name="dataList" id="vo">
+								<tr>
+									<td><input type="checkbox" name="id[]" id="id[]" value="{$vo.id}" /></td>
+									<td>{$vo.id}</td>
+									<td>{$vo.action}</td>
+                                    <td>{$vo.ip}</td>
+									<td>{$vo.username}</td>
+                                    <td>{$vo.create_time|date="Y-m-d H:i:s",###}</td>
+								</tr>
+							</volist>
+<else />
+							<tbody>
+                                <tr>
+                                	<td colspan="6"><p class="no">暂无数据</p></td>
+                                </tr>
+</present>
+							</tbody>
+						</table>
+					</div> <!-- End #tab1 -->
+					</form>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div><!-- End .clear -->
+<include file="Public:footer" />

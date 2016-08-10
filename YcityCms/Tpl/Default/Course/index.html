@@ -1,0 +1,68 @@
+﻿<taglib name="YC"/>
+    <include file="Public:contentHeader"/>
+
+<div class="listleft_s">
+    <div class="listin">
+        <div class="listlbg">
+            <div class="ltbox"><span class="ltfont">{$data.title}</span></div>
+        </div>
+        <table  cellpadding="0" cellspacing="0" class="listtab">
+            <volist name="list_type" id="type">
+                <tr>
+                    <td width="20px" class="listtd"><img src="__PUBLIC__/Images/listico.png"></td>
+                    <td class="listtd"><a href="{:U('Course/index',array('item'=>$type['id']))}">{$type['title']}</a></td>
+                </tr>
+
+            </volist>
+        </table>
+    </div>
+    <include file="Public/link"/>
+</div>
+
+    <div class="listright_s">
+        <div class="listrightin">
+            <div class="ltitle">
+                <div class="lrtitle">
+                <span class="lrlink">
+                    <a href="__ROOT__" class="home">首页</a>
+                                        <volist name="top_link" id="link">
+                                     &gt;<a class="tl" href="{:U('Course/index',array('item'=>$link['id']))}">{$link['title']}</a>
+                                        </volist>
+                                    </span>
+                                <div class="blue"><a></a></div> <span>{$data.title}</span></div>
+            </div>
+            <volist name="dataContentList" id="row">
+                <div class="course">
+                    <div class="cuimgbd">
+                        <a href="{$row['link_url']}">
+                            <if condition="$row['attach_thumb'] neq ''">
+                                <img src="__UPLOAD__/{$row['attach_thumb']}" class="cuimg">
+                                <else/>
+                                <img src="__UPLOAD__/nopic.jpg" class="cuimg">
+                            </if>
+                        </a>
+                    </div>
+            <table cellpadding="0" cellspacing="0" class="cutab">
+                <tr>
+                    <td class="label">课程名称：</td>
+                    <td  class="course_name"><a href="{$row['link_url']}">{$row['title']}</a></td>
+                </tr>
+                <tr>
+                    <td class="label">主讲教师：</td>
+                    <td class="teacher_name"><a href="#">{$row['author']}</a></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="label">课程简介：</td>
+                    <td>{$row.content}</td>
+                </tr>
+
+            </table>
+                    </div>
+            </volist>
+            <div class="lpage">{$pageContentBar}</div>
+        </div>
+        </div>
+    </div>
+    <include file="Public:footer" />
+</body>
+</html>

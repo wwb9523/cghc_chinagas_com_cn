@@ -1,0 +1,86 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<ul class="shortcut-buttons-set">
+				
+				<li><a class="shortcut-button" href="{:U("Module/index")}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/arrow_left_48.png" alt="icon" /><br />
+					返回浏览
+				</span></a></li>
+
+                <li><a class="shortcut-button" href="{:U("Module/install")}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/add_48.png" alt="icon" /><br />
+					安装模块
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>编辑模块</h3>
+					<div class="clear"></div>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+					<div class="tab-content default-tab"> <!-- This is the target div. id must match the href of this div's tab -->
+						<form method="post" action="{:U("Module/doModify")}" id="form" enctype="multipart/form-data">
+							<fieldset class="column-left"> <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+								<p>
+									<label>中文标识</label>
+									<input class="text-input small-input" type="text" name="module_title" id="module_title" value="{$vo.module_title}" />
+								</p>
+                                <p>
+									<label>模块名称</label>
+									{$vo.module_name}
+								</p>
+                                <p>
+									<label>开发者信息</label>
+									{$vo.developer|strip_tags|default=' '}&nbsp;
+								</p>
+								<p>
+									<label>内置权限</label>
+									<input class="text-input medium-input" type="text" name="module_permission" id="module_permission" value="{$vo.module_permission}" />
+								</p>
+                            </fieldset>
+                            <fieldset class="column-right">
+                                <p>
+									<label>状态</label>
+									<select class="small-input" name="status" id="status">
+                                    	<option value="0" {$vo.status|selected=0}>启用</option>
+                                    	<option value="1" {$vo.status|selected=1}>禁用</option>
+                                    </select>
+								</p>
+                                <p>
+									<label>排序</label>
+									<input class="text-input small-input" type="text" name="display_order" id="display_order" value="{$vo.display_order}" />
+								</p>
+                                <h4>包含文件</h4>
+                                <p>
+                                    1.控制器 ./AdminApp/Lib/Action/{$vo.module_name}Action.class.php<br />
+                                    2.模型 ./AdminApp/Lib/Action/{$vo.module_name}Model.class.php<br />
+                                    3.视图(模板) ./AdminApp/Tpl/{$vo.module_name}
+                                </p>
+                            </fieldset>
+                            <div class="clear"></div><!-- End .clear -->
+							<p>
+                                <input class="button" type="submit" name="submit" id="submit" value="提交更新">
+                            	<input class="button" type="reset" name="button" id="button" value="还原重填"/>
+                            	<input name="id" type="hidden" id="id" value="{$vo.id}" />
+							</p>
+						</form>
+					</div> <!-- End #tab1 -->
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div>
+<include file="Public:footer" />

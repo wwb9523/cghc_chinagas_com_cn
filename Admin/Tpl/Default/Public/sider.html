@@ -1,0 +1,118 @@
+<!-- Wrapper for the radial gradient background -->
+		<div id="sidebar">
+        	<div id="sidebar-wrapper">
+                <!-- Sidebar with logo and menu -->
+                <h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
+                <!-- Logo (221px wide) -->
+                <a href="#"><img id="logo" src="__PUBLIC__/Admin/images/logo.png" alt="logo" /></a>
+                <!-- Sidebar Profile links -->
+                <div id="profile-links">你好，<a href="{:U('User/modify',array('id'=>$adminId, 'jumpUri'=>'run' ))}">{$realName}</a><br /><br /><a href="{$frontUrl}" target="_blank" title="浏览网站">浏览网站</a> | <a href="{:U('Public/logout')}" title="退出系统">退出系统</a></div>        
+                <ul id="main-nav">  <!-- Accordion Menu -->
+                    <li>
+                        <a href='{:U("Index/index")}' class='nav-top-item no-submenu <if condition="$moduleName eq Index ">current</if>'><!-- Add the class "no-submenu" to menu items with no sub menu -->系统首页</a>       
+                    </li>
+                    <!--<li> 
+                        <a href="#" class="nav-top-item current">--><!-- Add the class "current" to current menu item --><!--Articles</a>
+                        <ul>
+                            <li><a href="#">Write a new Article</a></li>
+                            <li><a class="current" href="#">Manage Articles</a></li>--> <!-- Add class "current" to sub menu items also -->
+                            <!--<li><a href="#">Manage Comments</a></li>
+                            <li><a href="#">Manage Categories</a></li>
+                        </ul>
+                    </li>-->
+                    <li>
+                        <a href="#" class='nav-top-item <if condition="($moduleName eq Config) OR ($moduleName eq Module) OR ($moduleName eq Theme) OR ($moduleName eq User) OR ($moduleName eq Role)">current</if>'>基本设置</a>
+                        <ul>
+                            <li class="Config"><a href="{:U("Config/index")}" <if condition="($moduleName eq Config)">class="current"</if>>系统配置</a></li>
+                            <li class="Module"><a href="{:U("Module/index")}" <if condition="($moduleName eq Module)">class="current"</if>>系统模块</a></li>
+                            <li class="Theme"><a href="{:U("Theme/index")}" <if condition="($moduleName eq Theme)">class="current"</if>>风格主题</a></li>
+                            <li class="User"><a href="{:U("User/index")}" <if condition="($moduleName eq User) OR ($moduleName eq Role)">class="current"</if>>管理员管理</a></li>
+                            <!-- li class="AdminRole"><a href="{:U("AdminRole/index")}" <if condition="($moduleName eq AdminRole)">class="current"</if>>角色管理</a></li -->
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class='nav-top-item <if condition="($moduleName eq Ad) OR ($moduleName eq Category) OR ($moduleName eq Link)">current</if>'>模块管理</a>
+                        <ul>
+                            <!-- li class="Menu"><a href="{:U("Menu/index")}">导航管理</a></li -->
+                            <!--<li class="Ad"><a href="{:U("Ad/index")}">广告管理</a></li>-->
+                            <li class="Category"><a href="{:U("Category/index")}">分类管理</a></li>
+                            <li class="Link"><a href="{:U("Link/index")}">友情链接管理</a></li>
+                            <!-- li class="Feedback"><a href="{:U("Feedback/index")}">留言管理</a></li>
+                            <li class="Job"><a href="{:U("Job/index")}">招聘管理</a></li>
+                            <li class="Tags"><a href="{:U("Tags/index")}">标签管理</a></li>
+                            <li class="Comment"><a href="{:U("Comment/index")}">评论管理</a></li -->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class='nav-top-item <if condition="($moduleName eq News) OR($moduleName eq Course) OR ($moduleName eq Download) OR ($moduleName eq Page) OR ($moduleName eq Article) OR ($moduleName eq Video) OR ($moduleName eq Journal) OR ($moduleName eq Notice) OR ($moduleName eq Person)">current</if>'>内容管理</a>
+                        <ul>
+                            <li class="News"><a href="{:U('News/index')}" <if condition="($moduleName eq News)">class="current"</if>>新闻管理</a></li>
+                            <li class="Notice"><a href="{:U('Notice/index')}"<if condition="($moduleName eq Notice)">class="current"</if>>公告管理</a></li>
+                            <li class="Download"><a href="{:U('Download/index')}" <if condition="($moduleName eq Download)">class="current"</if>>下载管理</a></li>
+                            <li class="Page"><a href="{:U('Page/index')}" <if condition="($moduleName eq Page)">class="current"</if>>单页管理</a></li>
+                            <li class="Course"><a href="{:U('Course/index')}" <if condition="($moduleName eq Course)">class="current"</if>>精品课程管理</a></li>
+                           <!-- <li class="Page"><a href="{:U('Page/modify',array('id'=>1))}" <if condition="($moduleName eq Page)">class="current"</if>>单页管理</a></li> -->
+                           <!-- <li class="Article"><a href="{:U('Article/index')}" <if condition="($moduleName eq Article)">class="current"</if>>投稿管理</a></li> -->
+                            <!--<li class="Video"><a href="{:U('Video/index')}" <if condition="($moduleName eq Video)">class="current"</if>>视频管理</a></li>
+                            <li class="Journal"><a href="{:U('Journal/index')}" <if condition="($moduleName eq Journal)">class="current"</if>>期刊管理</a></li>
+                            <li class="Person"><a href="{:U('Person/index')}" <if condition="($moduleName eq Person)">class="current"</if>>企业人物管理</a></li>-->
+						</ul>
+                    </li>
+                    <li>
+                        <a href="#" class='nav-top-item <if condition="($moduleName eq Member) OR ($moduleName eq Group)">current</if>'>会员管理</a>
+                        <ul>
+                            <li class="Config"><a href="{:U("Member/index")}" <if condition="($moduleName eq Member)">class="current"</if>>会员资料管理</a></li>
+                            <!-- li class="Module"><a href="{:U("Group/index")}" <if condition="($moduleName eq Group)">class="current"</if>>会员组管理</a></li -->
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class='nav-top-item <if condition="($moduleName eq Core) OR ($moduleName eq Tools) OR ($moduleName eq Label) OR ($moduleName eq Database) OR ($moduleName eq AdminLog)">current</if>'>高级设置</a>
+                        <ul>
+                        	<li class="Core"><a href="{:U("Core/index")}" <if condition="($moduleName eq Core)">class="current"</if>>内核配置</a></li>
+                        	<li class="Tools"><a href="{:U("Tools/index")}" <if condition="($moduleName eq Tools)">class="current"</if>>工具箱</a></li>
+                            <!-- li class="Label"><a href="{:U("Label/index")}">数据调用</a></li -->
+                            <li class="Database"><a href="{:U("Database/index")}" <if condition="($moduleName eq Database)">class="current"</if>>数据库管理</a></li>
+                            <li class="AdminLog"><a href="{:U("AdminLog/index")}" <if condition="($moduleName eq AdminLog)">class="current"</if>>操作日志</a></li>
+						</ul>
+                    </li>  
+                </ul>
+                <!-- End #main-nav -->
+				<div id="messages" style="display: none">
+                <!-- Messages are shown when a link with these attributes are clicked: href="#messages" rel="modal"  -->
+                    <h3>3 Messages</h3>
+                    <p>
+                        <strong>17th May 2009</strong> by Admin<br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue.
+                        <small><a href="#" class="remove-link" title="Remove message">Remove</a></small>
+                    </p>
+                    <p>
+                        <strong>2nd May 2009</strong> by Jane Doe<br />
+                        Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
+                        <small><a href="#" class="remove-link" title="Remove message">Remove</a></small>
+                    </p>
+                    <p>
+                        <strong>25th April 2009</strong> by Admin<br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue.
+                        <small><a href="#" class="remove-link" title="Remove message">Remove</a></small>
+                    </p>
+                    <form action="" method="post">
+                        <h4>New Message</h4>
+                        <fieldset>
+                            <textarea class="textarea" name="textfield" cols="79" rows="5"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <select name="dropdown" class="small-input">
+                                <option value="option1">Send to...</option>
+                                <option value="option2">Everyone</option>
+                                <option value="option3">Admin</option>
+                                <option value="option4">Jane Doe</option>
+                            </select>
+                            <input class="button" type="submit" value="Send" />
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- End #messages -->
+            </div>
+        </div>
+        <!-- End #sidebar -->

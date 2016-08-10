@@ -1,0 +1,18 @@
+<div class="newsout">
+    <div class="news">
+        <div class="ntitle">
+            <a href="{:U('News/index',array('item'=>$noticeTitle['id']))}" class="nmore">更多>></a>
+            <span class="nfont">{$noticeNews[0]['categoryTitle']}</span>
+        </div>
+        <div id="marquee" class="ntcontent">
+            <div>
+                <ul>
+                    <volist name="noticeNews" id="row">
+                        <li class="title"><a href="{:U('News/detail',array('item'=>$row['id']))}">{$row.title|msubstr=0,20}</a></li>
+                        <li class="ntdate"><p>{$row.create_time|date="Y-m-d",###}</p></li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

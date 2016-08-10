@@ -1,0 +1,85 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#mainFrom").validate({
+            rules: {
+                role_name: "required"
+            },
+            messages: {
+                role_name: "角色组名称必须填写"
+            }
+        });
+    });
+</script>
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<ul class="shortcut-buttons-set">
+				
+                <li><a class="shortcut-button" href="{:U("Role/index")}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/users_two_48.png" alt="icon" /><br />
+					管理员权限管理
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Role/insert")}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/users_two_add_48.png" alt="icon" /><br />
+					添加管理员角色组
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("User/index")}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/user_48.png" alt="icon" /><br />
+					管理员管理
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>管理员角色组管理</h3>
+					<div class="clear"></div>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+					<div class="tab-content default-tab"> <!-- This is the target div. id must match the href of this div's tab -->
+                    <form method="post" action="{:U("Role/doModify")}" enctype="multipart/form-data" id="mainForm">
+						<table>
+							<thead>
+								<tr>
+                                   <th>角色组名称</th>
+								   <th><input class="text-input small-input" name="role_name" id="role_name" value="{$vo.role_name}"></th>
+								</tr>
+							</thead>
+							<tbody>
+<volist name="dataList" id="dataVo">
+								<tr>
+									<td>{$dataVo.module_title}</td>
+									<td>{$dataVo.module_permission|explodeRole=$vo['role_permission']}</td>
+								</tr>
+</volist>
+								<tr>
+                                	<td colspan="2"><input type="checkbox" id="chkall" name="chkall" class="check-all">全选(不选择表示拥有全部权限)</td>
+								</tr>
+                                <tr>
+                                	<td colspan="2">
+                                    	<input class="button" type="submit" name="submit" value="提交编辑">
+        								<input class="button" type="reset" name="button" id="button" value="还原重填"/>
+        								<input name="id" type="hidden" id="id" value="{$vo.id}" />
+                                    </td>
+								</tr>
+                               
+                            </tbody>
+						</table>
+                    </form>
+					</div> <!-- End #tab1 -->
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div>
+<include file="Public:footer" />

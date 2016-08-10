@@ -1,0 +1,24 @@
+<taglib name="YC"/>
+            <div id="side" class="f_l mb10">
+                <div class="btnbox">
+                    <a  href="http://oa.chinagas.com.cn/"><img src="__PUBLIC__/Images/btn_1.jpg" class="bbtn1"/></a>
+                    <a  href="http://www.chinagas.com.cn/zjjs.html"><img src="__PUBLIC__/Images/btn_2.jpg" class="bbtn"/></a>
+                    <a  href="http://gyxkz.aqsiq.gov.cn/eiss/zj_hzqy_query?model=00000000000000010194&nid=000261"><img src="__PUBLIC__/Images/btn_3.jpg" class="bbtn"/></a>
+                    <a  href="http://www.chinagas.com.cn/index.php/article/category/6"><img src="__PUBLIC__/Images/btn_4.jpg" class="bbtn"/></a>
+                    <a href=""><img src="__PUBLIC__/Images/btn_5.jpg" class="bbtn"/></a>
+                </div>
+                <div class="border-shallow">
+                    <div class="title"><h2>优秀会员</h2></div>
+					<div class="excellent">
+                        <YC:getData model="Ad" name="adMember" id="adMember" limit="12" where="category_id='13'" order="id DESC" >
+                            <if condition="$adMember['link_url'] neq ''">
+				                <a href="{$adMember.link_url}">
+                                    <img src="__ROOT__/Uploads/{$adMember.attach_file}" alt="{$adMember.attach_alt}" width="94" height="35">
+                                </a>
+                            <else/>
+				                <img src="__ROOT__/Uploads/{$adMember.attach_file}" alt="{$adMember.attach_alt}" width="94" height="35">
+                            </if>
+                        </YC:getData>
+                    </div>
+                </div>
+            </div>

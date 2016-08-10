@@ -1,0 +1,5 @@
+<div class="type">
+    <YC:getData model="Category"  name="types" id="type"  where_value="$ts" order="id DESC">
+        <a href="{:U('News/index',array('category'=>$type['id']))}">{$type['title']}</a>
+    </YC:getData>
+</div>

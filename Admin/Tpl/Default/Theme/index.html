@@ -1,0 +1,69 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<ul class="shortcut-buttons-set">
+				
+				<li><a class="shortcut-button" href="{:U('Theme/template')}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/folder_48.png" alt="icon" /><br />
+					模板管理
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>风格选择</h3>
+					<div class="clear"></div>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+					<div class="tab-content default-tab"> <!-- This is the target div. id must match the href of this div's tab -->
+						<table>
+							
+							<thead>
+								<tr>
+								   <th>&nbsp;</th>
+								   <th>预览图片</th>
+								   <th>风格名称</th>
+								   <th>选择模版</th>
+								</tr>
+								
+							</thead>
+						 
+							<tbody>
+<present name="fileList">
+<volist name="fileList" id="vo">
+								<tr>
+									<td><eq name="theme" value="$vo.title"><img src="__PUBLIC__/Admin/images/icons/star_48.png" align="absmiddle" alt="当前正在使用"/><br />使用中</eq></td>
+									<td><if condition="$vo['thumb'] eq ''"><img src="__PUBLIC__/Admin/images/icons/image_delete_48.png" align="absmiddle" alt="没有预览图片" / ><else/><a href="__ROOT__/{$vo.thumb}" target="_blank"><img src="__ROOT__/{$vo.thumb}" width="48" height="48" align="absmiddle" alt="{$vo.title}" /></a></if><br />{$vo.title}</td>
+									<td>{$vo.dev|default='默认风格'}</td>
+									<td>
+                                    	<neq name="theme" value="$vo.title"><a href="{:U('Theme/applyTheme', array('themeName' => $vo['title']))}"><img src="__PUBLIC__/Admin/images/icons/heart_48.png" align="absmiddle" alt="应用此风格"/><br />应用风格</a></neq>
+									</td>
+								</tr>
+</volist>
+<else />
+								<tr>
+                                	<td colspan="4"><p class="no">当前没有风格，请通过FTP上传风格后再进行选择。</p></td>
+                                </tr>
+</present>
+
+							</tbody>
+							
+						</table>
+					</div> <!-- End #tab1 -->
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div>
+<include file="Public:footer" />

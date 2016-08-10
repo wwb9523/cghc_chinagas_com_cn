@@ -1,0 +1,91 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+<script type="text/javascript">
+<!--
+//指定当前组模块URL地址
+var URL = '__URL__';
+var APP	 =	 '__APP__';
+var PUBLIC = '__PUBLIC__';
+var ROOT = '__ROOT__';
+//-->
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<ul class="shortcut-buttons-set">
+				
+				<li><a class="shortcut-button" href="{:U('Theme/index')}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/image_48.png" alt="icon" /><br />
+					风格选择
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>模板管理</h3>
+					<div class="clear"></div>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+					<div class="tab-content default-tab"> <!-- This is the target div. id must match the href of this div's tab -->
+						<table class="theme">
+							<thead>
+								<tr>
+									<th>
+                                    	当前风格：
+                                        <select name="theme" id="theme" onchange="MM_jumpMenu('parent',this,0)">
+<volist name="themeList" id="vo">
+                                            <option value="{:U('Theme/template', array('theme'=>$vo))}" {$theme|selected=$vo}>{$vo}</option>
+</volist>
+                                        </select>
+                                    </th>
+								   	<th>模块</th>
+								   	<th>操作</th>
+								</tr>
+								
+							</thead>
+						 
+							<tbody>
+<present name="fileList">
+	<volist name="fileList" id="vo" key="k">
+								<tr>
+									<td><img src="__PUBLIC__/Admin/images/icons/folder_48.png" align="absmiddle" alt="打开文件夹" width="24" height="24"/></td>
+									<td>{$vo.fileName}</td>
+									<td><a href="{:U('Theme/templateInsert', array('folder' => base64_encode($folder.$vo['fileName'])))}"><img src="__PUBLIC__/Admin/images/icons/add.png" alt="创建文件" border="0" align="absmiddle"/></a>　<a href="{:U('Theme/doCommand', array('operate'=>'dirDelete', 'dirPath'=>base64_encode($folder.$vo['fileName'])))}" onclick="return confirm('确定删除吗，此操作会删除此文件夹及文件且不可恢复');"><img src="__PUBLIC__/Admin/images/icons/cross.png" alt="删除" align="absmiddle"/></a></td>
+								</tr>
+		<volist name="vo.subFileList" key="subKey" id="subFile">
+								<tr>
+									<td class="html"><img src="__PUBLIC__/Admin/images/icons/paper_48.png" align="absmiddle" alt="模板文件" width="24" height="24"/></td>
+									<td>{$subFile}</td>
+									<td class="html"><a href="{:U('Theme/templateModify', array('file'=>base64_encode($folder.$vo['fileName'].'/'.$subFile)))}"><img src="__PUBLIC__/Admin/images/icons/paper&pencil.png" alt="编辑" align="absmiddle" /></a>　<a href="{:U('Theme/doCommand', array('operate'=>'deleteTemplate', 'fileName'=>base64_encode($folder.$vo['fileName'].'/'.$subFile)))}" onclick="return confirm('确定删除吗，此操作不可恢复');"><img src="__PUBLIC__/Admin/images/icons/cross.png" alt="删除" align="absmiddle" /></a></td>
+								</tr>
+		</volist>
+	</volist>
+<else />
+                            	<tr>
+                                	<td colspan="3" style="text-align:center; color:#F00">当前风格 {$theme} 下无模板文件</td>
+                            	</tr>
+</present>
+
+							</tbody>
+							
+						</table>
+					</div> <!-- End #tab1 -->
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div>
+<include file="Public:footer" />

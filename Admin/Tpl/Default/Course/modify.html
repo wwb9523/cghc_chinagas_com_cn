@@ -1,0 +1,167 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+<script type="text/javascript">
+    $(document).ready(function() {
+        colorPicker();
+    });
+</script>
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<ul class="shortcut-buttons-set">
+				
+                <li><a class="shortcut-button" href="{:U('Course/index')}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/arrow_left_48.png" alt="icon" /><br />
+					返回精品课程列表
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U('Course/insert')}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/add_48.png" alt="icon" /><br />
+					添加课程
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>精品课程管理</h3>
+					<ul class="content-box-tabs">
+						<li><a href="#tab1" class="default-tab">必填信息</a></li> <!-- href must be unique and match the id of target div -->
+						<li><a href="#tab2">选填信息</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                    <form method="post" action="{:U('Course/doModify')}" id="mainFrom" enctype="multipart/form-data">
+					<div class="tab-content default-tab" id="tab1"> <!-- This is the target div. id must match the href of this div's tab -->
+						<fieldset class="column-left"> <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+							<p>
+								<label>课程标题</label>
+								<input class="text-input large-input" type="text" name="title" id="title" value="{$vo.title}" />
+							</p>
+                            <p>
+                                <label>作者</label>
+                                <input class="text-input large-input" type="text" name="author" id="author" value="{$vo.author}" />
+                            </p>
+							<p>
+								<label>标题样式</label>
+                                    <div style=" display:block; float:left" title="点击取颜色" class="color_picker" id="color_picker" onclick="colorPicker()">&nbsp;</div>颜色
+                                    <input type="hidden" name="style_color" id="style_color" size="10" value="{$vo.title_style_serialize|styleSelected='color'}" />&nbsp;
+                                    <input type="checkbox" name="checkbox" id="checkbox" value="bold" {$vo.title_style_serialize|styleSelected='bold'} /> 加粗
+                                    <input type="checkbox" name="checkbox" id="checkbox" value="underline" {$vo.title_style_serialize|styleSelected='underline'} /> 下划线
+							</p>
+                            <p>
+								<label>课程类别</label>
+								<select name="category_id" id="select">
+                         			<!--{$category|buildSelect=$parentId,$vo['category_id']}-->
+                                    {$category|buildSelect=$parentId,$vo['category_id']}
+                            	</select>
+							</p>
+                        </fieldset>
+                        <fieldset class="column-right">
+                            <p>
+                                <label>课程封面</label>
+                                <input class="medium-input" type="file" name="attach_file" id="attach_file" /><eq name="vo['attach']" value="1"><a href="__ROOT__/{$UPLOADS}{$vo.attach_image}" target="_blank"><img src="__PUBLIC__/Admin/images/icons/image.png" align="absmiddle" /></a>　<input name="deleteImage" type="radio" value="1" />转换为普通新闻
+                                <br /><small style="color:#f00">已经上传图片，若不更换则不必重新选择图片</small></eq>
+                            </p>
+                            <p>
+                                <label>外链地址</label>
+                                <input class="text-input medium-input" type="text" name="link_url" id="link_url" value="{$vo.link_url}" />
+                                <br /><small>填写外链地址后，本条目链接将自动转向所填写的网址，以上填写的信息将不会显示。</small>
+                            </p>
+
+                        </fieldset>
+                        <div class="clear"></div><!-- End .clear -->
+                        <fieldset>
+                                <label>课程内容</label>
+                                <textarea class="text-input textarea" name="content" id="content" cols="79" rows="4">{$vo.content}</textarea>
+							<p>
+                                <input class="button" type="submit" name="submit" value="提交更新"/>
+                                <input class="button" type="reset" name="button" id="button" value="还原重填"/>
+							</p>
+                        </fieldset>
+                    </div> <!-- End #tab1 -->
+                    <div class="tab-content" id="tab2">
+                        <fieldset class="column-left">
+                            <p>
+                                <label>模板</label>
+                                <input class="text-input medium-input" type="text" name="template" id="template" value="{$vo.template}" />
+                                <br /><small>若本模块拥有多个模板文件供调用，可在此填入相应的模板名（无需填写.html），保持默认则留空即可。</small>
+                            </p>
+                            <p>
+                                <label>标签</label>
+                                <input class="text-input medium-input" type="text" name="tags" id="tags" value="{$vo.tags}" />
+                                <br /><small>各个标签之间请用","隔开（注：此处为英文半角符号）</small>
+                            </p>
+                            <p>
+                                <label>关键词</label>
+                                <input class="text-input medium-input" type="text" name="keyword" id="keyword" value="{$vo.keyword}" />
+                                <br /><small>各个关键词之间请用","或者"|"隔开（注：此处为英文半角符号）</small>
+                            </p>
+
+                        </fieldset>
+                        <fieldset class="column-right">
+                            <p>
+                                <label>来源</label>
+                                <input class="text-input medium-input" type="text" name="copy_from" id="copy_from" value="{$vo.copy_from}" />
+                            </p>
+                            <p>
+                                <label>来源链接</label>
+                                <input class="text-input medium-input" type="text" name="from_link" id="from_link" value="{$vo.from_link}" />
+                            </p>
+							<p>
+                                <label>其它参数</label>
+                                <select name="recommend" id="recommend">
+                              		<option value="0" {$vo.recommend|selected=0}>默认不推荐</option>
+                              		<option value="1" {$vo.recommend|selected=1}>推荐</option>
+                            	</select>
+								<select name="status" id="status">
+				          			<option value="0" {$vo.status|selected=0}>默认显示</option>
+				          			<option value="1" {$vo.status|selected=1}>隐藏</option>
+                        		</select>
+                                <select name="istop" id="istop">
+				          			<option value="0" {$vo.istop|selected=0}>默认不置顶</option>
+				          			<option value="1" {$vo.istop|selected=1}>置顶</option>
+              					</select>
+                                浏览 <input name="view_count" type="text" id="view_count" value="{$vo.view_count|default=0}" size="5" maxlength="12"  />
+								排序 <input name="display_order" type="text" id="display_order" value="{$vo.display_order|default=0}" size="5" maxlength="12"  />
+                                <br /><small>置顶以修改时间倒序排列，即后修改的排在先修改的前面；排序以排列序数倒序排列，默认为0，数字越大，则越靠前</small>
+                            </p>
+                            <p>
+                            	<label>录入时间</label>
+                                <input class="text-input Wdate" type="text" name="create_time" id="create_time" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true,isShowToday:true})" value="{$vo.create_time|date="Y-m-d",###}"/>
+                            </p>
+						</fieldset>
+						<div class="clear"></div><!-- End .clear -->
+							<p>
+                                <input class="button" type="submit" name="submit" value="提交更新"/>
+                                <input class="button" type="reset" name="button" id="button" value="还原重填"/>
+                                <input name="id" type="hidden" id="id" value="{$vo.id}" />
+	    						<input name="old_file" type="hidden" id="old_file" value="{$vo.attach_file}" />
+							</p>
+					</div> <!-- End #tab2 -->
+                    </form>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div>
+<script type="text/javascript">
+$().ready(function(e) {
+    var editor = new baidu.editor.ui.Editor({
+        UEDITOR_HOME_URL:'__PUBLIC__/Js/ueditor/',
+        iframeCssUrl :'__PUBLIC__/Js/ueditor/themes/default/iframe.css',
+        textarea:'content',
+        initialContent:''
+    });
+    editor.render('content');
+});
+</script>
+<include file="Public:footer" />

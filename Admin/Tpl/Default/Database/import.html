@@ -1,0 +1,108 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+<script type="text/javascript" language="javascript">
+<!--
+function confirmAct()
+{
+    if(confirm('确定要恢复到此备份的数据吗?'))
+    {
+        return true;
+    }
+    return false;
+}
+//-->
+</script>		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<ul class="shortcut-buttons-set">
+				
+                <li><a class="shortcut-button" href="{:U("Database/index")}"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/arrow_left_48.png" alt="icon" /><br />
+					返回数据库管理
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Database/query")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/database_48.png" alt="icon" /><br />
+					执行SQL
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Database/export")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/database_export_48.png" alt="icon" /><br />
+					备份数据库
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+            <div class="clear"></div><!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>恢复数据库</h3>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                	<form method="post" action="{:U("Page/doCommand")}" id="mainForm">
+					<div class="tab-content default-tab" id="tab1"> <!-- This is the target div. id must match the href of this div's tab -->
+						<div class="clear"></div><!-- End .clear -->
+                        <table>
+							
+							<thead>
+								<tr>
+								   <th><input class="check-all" type="checkbox" /></th>
+								   <th>名称</th>
+								   <th>大小</th>
+                                   <th>时间</th>
+								</tr>
+								
+							</thead>
+<present name="dataList">
+							<tfoot>
+								<tr>
+									<td colspan="8">
+										<div class="bulk-actions align-left">
+                                        	<!-- input class="checkAll" type="checkbox" /> 全选&nbsp;
+                                            <select name="operate" id="operate">
+                                            	<option value="" selected="selected">选择操作</option>
+                                             	<option value="deleteSQL">删除</option>
+                                          	</select> 
+											<input class="button" type="submit" name="submit" value="提交操作" -->
+										</div>
+										
+										<div class="pagination">
+											{$pageBar}
+										</div> <!-- End .pagination -->
+										<div class="clear"></div>
+									</td>
+								</tr>
+							</tfoot>
+						 
+							<tbody>
+                            <volist name="dataList" id="vo">
+								<tr>
+									<td><input type="checkbox" name="fileName[]" id="fileName[]" value="{$vo.fileName}" /></td>
+									<td><a href="{:U('Database/doImport', array('fileName' => safe_b64encode($vo['fileName'])))}" onclick="return confirmAct();">{$vo.fileName}</a></td>
+									<td>{$vo.fileSize|byte_format}</td>
+                                    <td>{$vo.fileTime|date='Y-m-d H:i:s',###}</td>
+								</tr>
+							</volist>
+<else />
+							<tbody>
+                                <tr>
+                                	<td colspan="4"><p class="no">暂无数据</p></td>
+                                </tr>
+</present>
+							</tbody>
+						</table>
+					</div> <!-- End #tab1 -->
+					</form>
+                    <div id="message" style="display:none" ></div>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div><!-- End .clear -->
+<include file="Public:footer" />

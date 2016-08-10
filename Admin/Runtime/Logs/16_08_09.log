@@ -1,0 +1,1138 @@
+[ 2016-08-09T09:33:40+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [2] Invalid argument supplied for foreach() functions.php 第 98 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [2] Invalid argument supplied for foreach() functions.php 第 98 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login/jumpUri/L2NnaGNfY2hpbmFnYXNfY29tX2NuL2FkbWluLnBocA | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:41+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/verify | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_module` [ RunTime:0.014001s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT * FROM `ycity_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC [ RunTime:0.001000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: security IndexAction.class.php 第 25 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: select version() [ RunTime:0.000000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_user` [ RunTime:0.002000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT * FROM `ycity_user` WHERE id=1 LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_news` [ RunTime:0.002000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_news` LIMIT 1  [ RunTime:0.001001s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_product` [ RunTime:0.002000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_product` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_download` [ RunTime:0.025001s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_download` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_notice` [ RunTime:0.003001s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_notice` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_page` [ RunTime:0.002000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_page` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_comment` [ RunTime:0.020001s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_comment` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_feedback` [ RunTime:0.002000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_feedback` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_member` [ RunTime:0.002001s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_member` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_category` [ RunTime:0.001000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_category` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_admin_log` [ RunTime:0.010001s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: INSERT INTO `ycity_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'admin','/cghc_chinagas_com_cn/admin.php','0.0.0.0',1470706425) [ RunTime:0.011000s ]
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Index - assumed 'Index' 334bcf486a282ef8c0705418bd6b0d70.php 第 73 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant User - assumed 'User' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 334bcf486a282ef8c0705418bd6b0d70.php 第 87 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 334bcf486a282ef8c0705418bd6b0d70.php 第 88 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 334bcf486a282ef8c0705418bd6b0d70.php 第 89 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant User - assumed 'User' 334bcf486a282ef8c0705418bd6b0d70.php 第 90 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 334bcf486a282ef8c0705418bd6b0d70.php 第 90 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminRole - assumed 'AdminRole' 334bcf486a282ef8c0705418bd6b0d70.php 第 91 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Ad - assumed 'Ad' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Category - assumed 'Category' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Link - assumed 'Link' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant News - assumed 'News' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant News - assumed 'News' 334bcf486a282ef8c0705418bd6b0d70.php 第 111 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 334bcf486a282ef8c0705418bd6b0d70.php 第 112 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 334bcf486a282ef8c0705418bd6b0d70.php 第 113 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 114 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 334bcf486a282ef8c0705418bd6b0d70.php 第 115 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 116 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 334bcf486a282ef8c0705418bd6b0d70.php 第 117 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 334bcf486a282ef8c0705418bd6b0d70.php 第 118 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 334bcf486a282ef8c0705418bd6b0d70.php 第 119 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 334bcf486a282ef8c0705418bd6b0d70.php 第 120 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 334bcf486a282ef8c0705418bd6b0d70.php 第 124 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 334bcf486a282ef8c0705418bd6b0d70.php 第 124 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 334bcf486a282ef8c0705418bd6b0d70.php 第 126 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 334bcf486a282ef8c0705418bd6b0d70.php 第 127 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Label - assumed 'Label' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 334bcf486a282ef8c0705418bd6b0d70.php 第 133 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 334bcf486a282ef8c0705418bd6b0d70.php 第 134 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 334bcf486a282ef8c0705418bd6b0d70.php 第 136 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:45+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 334bcf486a282ef8c0705418bd6b0d70.php 第 137 行.
+[ 2016-08-09T09:33:47+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/logout | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T09:33:47+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/logout | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined index: jumpUri PublicAction.class.php 第 28 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [2] Invalid argument supplied for foreach() functions.php 第 98 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [2] Invalid argument supplied for foreach() functions.php 第 98 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/login | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T09:33:50+08:00 ] /cghc_chinagas_com_cn/admin.php/Public/verify | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_module` [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT * FROM `ycity_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: security IndexAction.class.php 第 25 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: select version() [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_user` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT * FROM `ycity_user` WHERE id=1 LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_news` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_news` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_product` [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_product` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_download` [ RunTime:0.002001s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_download` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_notice` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_notice` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_page` [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_page` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_comment` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_comment` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_feedback` [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_feedback` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_member` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_member` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_category` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_category` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_admin_log` [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: INSERT INTO `ycity_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'admin','/cghc_chinagas_com_cn/admin.php','0.0.0.0',1470712300) [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Index - assumed 'Index' 334bcf486a282ef8c0705418bd6b0d70.php 第 73 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant User - assumed 'User' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 334bcf486a282ef8c0705418bd6b0d70.php 第 87 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 334bcf486a282ef8c0705418bd6b0d70.php 第 88 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 334bcf486a282ef8c0705418bd6b0d70.php 第 89 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant User - assumed 'User' 334bcf486a282ef8c0705418bd6b0d70.php 第 90 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 334bcf486a282ef8c0705418bd6b0d70.php 第 90 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminRole - assumed 'AdminRole' 334bcf486a282ef8c0705418bd6b0d70.php 第 91 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Ad - assumed 'Ad' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Category - assumed 'Category' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Link - assumed 'Link' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant News - assumed 'News' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant News - assumed 'News' 334bcf486a282ef8c0705418bd6b0d70.php 第 111 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 334bcf486a282ef8c0705418bd6b0d70.php 第 112 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 334bcf486a282ef8c0705418bd6b0d70.php 第 113 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 114 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 334bcf486a282ef8c0705418bd6b0d70.php 第 115 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 116 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 334bcf486a282ef8c0705418bd6b0d70.php 第 117 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 334bcf486a282ef8c0705418bd6b0d70.php 第 118 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 334bcf486a282ef8c0705418bd6b0d70.php 第 119 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 334bcf486a282ef8c0705418bd6b0d70.php 第 120 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 334bcf486a282ef8c0705418bd6b0d70.php 第 124 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 334bcf486a282ef8c0705418bd6b0d70.php 第 124 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 334bcf486a282ef8c0705418bd6b0d70.php 第 126 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 334bcf486a282ef8c0705418bd6b0d70.php 第 127 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Label - assumed 'Label' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 334bcf486a282ef8c0705418bd6b0d70.php 第 133 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 334bcf486a282ef8c0705418bd6b0d70.php 第 134 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 334bcf486a282ef8c0705418bd6b0d70.php 第 136 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:40+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 334bcf486a282ef8c0705418bd6b0d70.php 第 137 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | SQL: SHOW COLUMNS FROM `ycity_module` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | SQL: SELECT * FROM `ycity_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | SQL: SHOW COLUMNS FROM `ycity_category` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | SQL: SELECT * FROM `ycity_category` WHERE module != "Page" ORDER BY id DESC [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | SQL: SHOW COLUMNS FROM `ycity_admin_log` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | SQL: INSERT INTO `ycity_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'admin','/cghc_chinagas_com_cn/admin.php/Category/index','0.0.0.0',1470712302) [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Index - assumed 'Index' caffc1f3a91ad46cd0b286f065c4ab88.php 第 73 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Config - assumed 'Config' caffc1f3a91ad46cd0b286f065c4ab88.php 第 85 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Module - assumed 'Module' caffc1f3a91ad46cd0b286f065c4ab88.php 第 85 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' caffc1f3a91ad46cd0b286f065c4ab88.php 第 85 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant User - assumed 'User' caffc1f3a91ad46cd0b286f065c4ab88.php 第 85 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Role - assumed 'Role' caffc1f3a91ad46cd0b286f065c4ab88.php 第 85 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Config - assumed 'Config' caffc1f3a91ad46cd0b286f065c4ab88.php 第 87 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Module - assumed 'Module' caffc1f3a91ad46cd0b286f065c4ab88.php 第 88 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' caffc1f3a91ad46cd0b286f065c4ab88.php 第 89 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant User - assumed 'User' caffc1f3a91ad46cd0b286f065c4ab88.php 第 90 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Role - assumed 'Role' caffc1f3a91ad46cd0b286f065c4ab88.php 第 90 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant AdminRole - assumed 'AdminRole' caffc1f3a91ad46cd0b286f065c4ab88.php 第 91 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Ad - assumed 'Ad' caffc1f3a91ad46cd0b286f065c4ab88.php 第 95 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Category - assumed 'Category' caffc1f3a91ad46cd0b286f065c4ab88.php 第 95 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant News - assumed 'News' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Course - assumed 'Course' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Download - assumed 'Download' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Page - assumed 'Page' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Article - assumed 'Article' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Video - assumed 'Video' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Person - assumed 'Person' caffc1f3a91ad46cd0b286f065c4ab88.php 第 109 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant News - assumed 'News' caffc1f3a91ad46cd0b286f065c4ab88.php 第 111 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' caffc1f3a91ad46cd0b286f065c4ab88.php 第 112 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Download - assumed 'Download' caffc1f3a91ad46cd0b286f065c4ab88.php 第 113 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Page - assumed 'Page' caffc1f3a91ad46cd0b286f065c4ab88.php 第 114 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Course - assumed 'Course' caffc1f3a91ad46cd0b286f065c4ab88.php 第 115 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Page - assumed 'Page' caffc1f3a91ad46cd0b286f065c4ab88.php 第 116 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Article - assumed 'Article' caffc1f3a91ad46cd0b286f065c4ab88.php 第 117 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Video - assumed 'Video' caffc1f3a91ad46cd0b286f065c4ab88.php 第 118 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' caffc1f3a91ad46cd0b286f065c4ab88.php 第 119 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Person - assumed 'Person' caffc1f3a91ad46cd0b286f065c4ab88.php 第 120 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Member - assumed 'Member' caffc1f3a91ad46cd0b286f065c4ab88.php 第 124 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Group - assumed 'Group' caffc1f3a91ad46cd0b286f065c4ab88.php 第 124 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Member - assumed 'Member' caffc1f3a91ad46cd0b286f065c4ab88.php 第 126 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Group - assumed 'Group' caffc1f3a91ad46cd0b286f065c4ab88.php 第 127 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Core - assumed 'Core' caffc1f3a91ad46cd0b286f065c4ab88.php 第 131 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' caffc1f3a91ad46cd0b286f065c4ab88.php 第 131 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Label - assumed 'Label' caffc1f3a91ad46cd0b286f065c4ab88.php 第 131 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Database - assumed 'Database' caffc1f3a91ad46cd0b286f065c4ab88.php 第 131 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' caffc1f3a91ad46cd0b286f065c4ab88.php 第 131 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Core - assumed 'Core' caffc1f3a91ad46cd0b286f065c4ab88.php 第 133 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' caffc1f3a91ad46cd0b286f065c4ab88.php 第 134 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant Database - assumed 'Database' caffc1f3a91ad46cd0b286f065c4ab88.php 第 136 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' caffc1f3a91ad46cd0b286f065c4ab88.php 第 137 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: vo caffc1f3a91ad46cd0b286f065c4ab88.php 第 218 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: pageBar caffc1f3a91ad46cd0b286f065c4ab88.php 第 240 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:42+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | SQL: SHOW COLUMNS FROM `ycity_module` [ RunTime:0.002000s ]
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | SQL: SELECT * FROM `ycity_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC [ RunTime:0.000000s ]
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | SQL: SHOW COLUMNS FROM `ycity_category` [ RunTime:0.001001s ]
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | SQL: SELECT * FROM `ycity_category` WHERE module != "Page" ORDER BY id DESC [ RunTime:0.001000s ]
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: category_id functions.php 第 1528 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined index: parentId CategoryAction.class.php 第 56 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Index - assumed 'Index' 90ebf2b2f21175d29dec3b943e640a08.php 第 73 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 90ebf2b2f21175d29dec3b943e640a08.php 第 85 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 90ebf2b2f21175d29dec3b943e640a08.php 第 85 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 90ebf2b2f21175d29dec3b943e640a08.php 第 85 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant User - assumed 'User' 90ebf2b2f21175d29dec3b943e640a08.php 第 85 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 90ebf2b2f21175d29dec3b943e640a08.php 第 85 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 90ebf2b2f21175d29dec3b943e640a08.php 第 87 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 90ebf2b2f21175d29dec3b943e640a08.php 第 88 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 90ebf2b2f21175d29dec3b943e640a08.php 第 89 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant User - assumed 'User' 90ebf2b2f21175d29dec3b943e640a08.php 第 90 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 90ebf2b2f21175d29dec3b943e640a08.php 第 90 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant AdminRole - assumed 'AdminRole' 90ebf2b2f21175d29dec3b943e640a08.php 第 91 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Ad - assumed 'Ad' 90ebf2b2f21175d29dec3b943e640a08.php 第 95 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Category - assumed 'Category' 90ebf2b2f21175d29dec3b943e640a08.php 第 95 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant News - assumed 'News' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 90ebf2b2f21175d29dec3b943e640a08.php 第 109 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant News - assumed 'News' 90ebf2b2f21175d29dec3b943e640a08.php 第 111 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 90ebf2b2f21175d29dec3b943e640a08.php 第 112 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 90ebf2b2f21175d29dec3b943e640a08.php 第 113 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 90ebf2b2f21175d29dec3b943e640a08.php 第 114 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 90ebf2b2f21175d29dec3b943e640a08.php 第 115 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 90ebf2b2f21175d29dec3b943e640a08.php 第 116 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 90ebf2b2f21175d29dec3b943e640a08.php 第 117 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 90ebf2b2f21175d29dec3b943e640a08.php 第 118 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 90ebf2b2f21175d29dec3b943e640a08.php 第 119 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 90ebf2b2f21175d29dec3b943e640a08.php 第 120 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 90ebf2b2f21175d29dec3b943e640a08.php 第 124 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 90ebf2b2f21175d29dec3b943e640a08.php 第 124 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 90ebf2b2f21175d29dec3b943e640a08.php 第 126 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 90ebf2b2f21175d29dec3b943e640a08.php 第 127 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 90ebf2b2f21175d29dec3b943e640a08.php 第 131 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 90ebf2b2f21175d29dec3b943e640a08.php 第 131 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Label - assumed 'Label' 90ebf2b2f21175d29dec3b943e640a08.php 第 131 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 90ebf2b2f21175d29dec3b943e640a08.php 第 131 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 90ebf2b2f21175d29dec3b943e640a08.php 第 131 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 90ebf2b2f21175d29dec3b943e640a08.php 第 133 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 90ebf2b2f21175d29dec3b943e640a08.php 第 134 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 90ebf2b2f21175d29dec3b943e640a08.php 第 136 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 90ebf2b2f21175d29dec3b943e640a08.php 第 137 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T11:11:44+08:00 ] /cghc_chinagas_com_cn/admin.php/Category/insert | NOTIC: [8] Undefined variable: vo 90ebf2b2f21175d29dec3b943e640a08.php 第 247 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_module` [ RunTime:0.001000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT * FROM `ycity_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC [ RunTime:0.001000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: security IndexAction.class.php 第 25 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: select version() [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_user` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT * FROM `ycity_user` WHERE id=1 LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_news` [ RunTime:0.001000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_news` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_product` [ RunTime:0.001000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_product` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_download` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_download` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_notice` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_notice` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_page` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_page` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_comment` [ RunTime:0.001000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_comment` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_feedback` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_feedback` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_member` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_member` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_category` [ RunTime:0.002001s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_category` LIMIT 1  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: SHOW COLUMNS FROM `ycity_admin_log` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | SQL: INSERT INTO `ycity_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'admin','/cghc_chinagas_com_cn/admin.php','0.0.0.0',1470729696) [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Index - assumed 'Index' 334bcf486a282ef8c0705418bd6b0d70.php 第 73 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant User - assumed 'User' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 334bcf486a282ef8c0705418bd6b0d70.php 第 85 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 334bcf486a282ef8c0705418bd6b0d70.php 第 87 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 334bcf486a282ef8c0705418bd6b0d70.php 第 88 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 334bcf486a282ef8c0705418bd6b0d70.php 第 89 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant User - assumed 'User' 334bcf486a282ef8c0705418bd6b0d70.php 第 90 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 334bcf486a282ef8c0705418bd6b0d70.php 第 90 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminRole - assumed 'AdminRole' 334bcf486a282ef8c0705418bd6b0d70.php 第 91 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Ad - assumed 'Ad' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Category - assumed 'Category' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Link - assumed 'Link' 334bcf486a282ef8c0705418bd6b0d70.php 第 95 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant News - assumed 'News' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 334bcf486a282ef8c0705418bd6b0d70.php 第 109 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant News - assumed 'News' 334bcf486a282ef8c0705418bd6b0d70.php 第 111 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 334bcf486a282ef8c0705418bd6b0d70.php 第 112 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 334bcf486a282ef8c0705418bd6b0d70.php 第 113 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 114 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 334bcf486a282ef8c0705418bd6b0d70.php 第 115 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 334bcf486a282ef8c0705418bd6b0d70.php 第 116 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 334bcf486a282ef8c0705418bd6b0d70.php 第 117 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 334bcf486a282ef8c0705418bd6b0d70.php 第 118 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 334bcf486a282ef8c0705418bd6b0d70.php 第 119 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 334bcf486a282ef8c0705418bd6b0d70.php 第 120 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 334bcf486a282ef8c0705418bd6b0d70.php 第 124 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 334bcf486a282ef8c0705418bd6b0d70.php 第 124 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 334bcf486a282ef8c0705418bd6b0d70.php 第 126 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 334bcf486a282ef8c0705418bd6b0d70.php 第 127 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Label - assumed 'Label' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 334bcf486a282ef8c0705418bd6b0d70.php 第 131 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 334bcf486a282ef8c0705418bd6b0d70.php 第 133 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 334bcf486a282ef8c0705418bd6b0d70.php 第 134 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 334bcf486a282ef8c0705418bd6b0d70.php 第 136 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:36+08:00 ] /cghc_chinagas_com_cn/admin.php | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 334bcf486a282ef8c0705418bd6b0d70.php 第 137 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_module` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT * FROM `ycity_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: fileName functions.php 第 1374 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_config` [ RunTime:0.024001s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT * FROM `ycity_config` WHERE id=1 LIMIT 1  [ RunTime:0.003000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_category` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT * FROM `ycity_category` WHERE parent_id=0 ORDER BY display_order DESC,id DESC [ RunTime:0.001000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_download` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: title DownloadAction.class.php 第 43 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderBy DownloadAction.class.php 第 44 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderType DownloadAction.class.php 第 45 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: recommend DownloadAction.class.php 第 46 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: categoryId DownloadAction.class.php 第 47 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: status DownloadAction.class.php 第 48 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: istop DownloadAction.class.php 第 49 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime DownloadAction.class.php 第 50 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime1 DownloadAction.class.php 第 51 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount DownloadAction.class.php 第 52 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount1 DownloadAction.class.php 第 53 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: pageSize DownloadAction.class.php 第 57 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_download` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT a.*,b.title as category FROM ycity_download a LEFT JOIN ycity_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15  [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_admin_log` [ RunTime:0.002000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: INSERT INTO `ycity_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'admin','/cghc_chinagas_com_cn/admin.php/Download/index','0.0.0.0',1470729698) [ RunTime:0.000000s ]
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Index - assumed 'Index' 588e635d6daa9528fb3598c2956def73.php 第 73 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant User - assumed 'User' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 588e635d6daa9528fb3598c2956def73.php 第 87 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 588e635d6daa9528fb3598c2956def73.php 第 88 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 588e635d6daa9528fb3598c2956def73.php 第 89 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant User - assumed 'User' 588e635d6daa9528fb3598c2956def73.php 第 90 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 588e635d6daa9528fb3598c2956def73.php 第 90 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant AdminRole - assumed 'AdminRole' 588e635d6daa9528fb3598c2956def73.php 第 91 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Ad - assumed 'Ad' 588e635d6daa9528fb3598c2956def73.php 第 95 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Category - assumed 'Category' 588e635d6daa9528fb3598c2956def73.php 第 95 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Link - assumed 'Link' 588e635d6daa9528fb3598c2956def73.php 第 95 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant News - assumed 'News' 588e635d6daa9528fb3598c2956def73.php 第 109 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 588e635d6daa9528fb3598c2956def73.php 第 109 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 588e635d6daa9528fb3598c2956def73.php 第 109 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant News - assumed 'News' 588e635d6daa9528fb3598c2956def73.php 第 111 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 588e635d6daa9528fb3598c2956def73.php 第 112 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 588e635d6daa9528fb3598c2956def73.php 第 113 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 588e635d6daa9528fb3598c2956def73.php 第 114 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 588e635d6daa9528fb3598c2956def73.php 第 115 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 588e635d6daa9528fb3598c2956def73.php 第 116 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 588e635d6daa9528fb3598c2956def73.php 第 117 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 588e635d6daa9528fb3598c2956def73.php 第 118 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 588e635d6daa9528fb3598c2956def73.php 第 119 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 588e635d6daa9528fb3598c2956def73.php 第 120 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 588e635d6daa9528fb3598c2956def73.php 第 124 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 588e635d6daa9528fb3598c2956def73.php 第 124 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 588e635d6daa9528fb3598c2956def73.php 第 126 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 588e635d6daa9528fb3598c2956def73.php 第 127 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Label - assumed 'Label' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 588e635d6daa9528fb3598c2956def73.php 第 133 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 588e635d6daa9528fb3598c2956def73.php 第 134 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 588e635d6daa9528fb3598c2956def73.php 第 136 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 588e635d6daa9528fb3598c2956def73.php 第 137 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: category 588e635d6daa9528fb3598c2956def73.php 第 245 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: title 588e635d6daa9528fb3598c2956def73.php 第 270 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: categoryId 588e635d6daa9528fb3598c2956def73.php 第 271 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: userId 588e635d6daa9528fb3598c2956def73.php 第 272 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime 588e635d6daa9528fb3598c2956def73.php 第 273 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime1 588e635d6daa9528fb3598c2956def73.php 第 274 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: recommend 588e635d6daa9528fb3598c2956def73.php 第 275 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: status 588e635d6daa9528fb3598c2956def73.php 第 276 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: istop 588e635d6daa9528fb3598c2956def73.php 第 277 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount 588e635d6daa9528fb3598c2956def73.php 第 278 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount1 588e635d6daa9528fb3598c2956def73.php 第 279 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderType 588e635d6daa9528fb3598c2956def73.php 第 280 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderBy 588e635d6daa9528fb3598c2956def73.php 第 281 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: pageSize 588e635d6daa9528fb3598c2956def73.php 第 282 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: category 588e635d6daa9528fb3598c2956def73.php 第 339 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:01:38+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 100 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_module` [ RunTime:0.002000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT * FROM `ycity_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC [ RunTime:0.001001s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: fileName functions.php 第 1374 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_config` [ RunTime:0.003000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT * FROM `ycity_config` WHERE id=1 LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_category` [ RunTime:0.002000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT * FROM `ycity_category` WHERE parent_id=0 ORDER BY display_order DESC,id DESC [ RunTime:0.001000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_download` [ RunTime:0.002001s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: title DownloadAction.class.php 第 43 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderBy DownloadAction.class.php 第 44 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderType DownloadAction.class.php 第 45 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: recommend DownloadAction.class.php 第 46 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: categoryId DownloadAction.class.php 第 47 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: status DownloadAction.class.php 第 48 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: istop DownloadAction.class.php 第 49 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime DownloadAction.class.php 第 50 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime1 DownloadAction.class.php 第 51 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount DownloadAction.class.php 第 52 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount1 DownloadAction.class.php 第 53 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: pageSize DownloadAction.class.php 第 57 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT COUNT(*) AS tp_count FROM `ycity_download` LIMIT 1  [ RunTime:0.001000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 619 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SELECT a.*,b.title as category FROM ycity_download a LEFT JOIN ycity_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15  [ RunTime:0.000000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: SHOW COLUMNS FROM `ycity_admin_log` [ RunTime:0.002000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | SQL: INSERT INTO `ycity_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'admin','/cghc_chinagas_com_cn/admin.php/Download/index','0.0.0.0',1470729874) [ RunTime:0.000000s ]
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Index - assumed 'Index' 588e635d6daa9528fb3598c2956def73.php 第 73 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant User - assumed 'User' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 588e635d6daa9528fb3598c2956def73.php 第 85 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Config - assumed 'Config' 588e635d6daa9528fb3598c2956def73.php 第 87 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Module - assumed 'Module' 588e635d6daa9528fb3598c2956def73.php 第 88 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Theme - assumed 'Theme' 588e635d6daa9528fb3598c2956def73.php 第 89 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant User - assumed 'User' 588e635d6daa9528fb3598c2956def73.php 第 90 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Role - assumed 'Role' 588e635d6daa9528fb3598c2956def73.php 第 90 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant AdminRole - assumed 'AdminRole' 588e635d6daa9528fb3598c2956def73.php 第 91 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Ad - assumed 'Ad' 588e635d6daa9528fb3598c2956def73.php 第 95 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Category - assumed 'Category' 588e635d6daa9528fb3598c2956def73.php 第 95 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Link - assumed 'Link' 588e635d6daa9528fb3598c2956def73.php 第 95 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant News - assumed 'News' 588e635d6daa9528fb3598c2956def73.php 第 109 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 588e635d6daa9528fb3598c2956def73.php 第 109 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 588e635d6daa9528fb3598c2956def73.php 第 109 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant News - assumed 'News' 588e635d6daa9528fb3598c2956def73.php 第 111 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' 588e635d6daa9528fb3598c2956def73.php 第 112 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Download - assumed 'Download' 588e635d6daa9528fb3598c2956def73.php 第 113 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 588e635d6daa9528fb3598c2956def73.php 第 114 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Course - assumed 'Course' 588e635d6daa9528fb3598c2956def73.php 第 115 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Page - assumed 'Page' 588e635d6daa9528fb3598c2956def73.php 第 116 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Article - assumed 'Article' 588e635d6daa9528fb3598c2956def73.php 第 117 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Video - assumed 'Video' 588e635d6daa9528fb3598c2956def73.php 第 118 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Journal - assumed 'Journal' 588e635d6daa9528fb3598c2956def73.php 第 119 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Person - assumed 'Person' 588e635d6daa9528fb3598c2956def73.php 第 120 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 588e635d6daa9528fb3598c2956def73.php 第 124 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 588e635d6daa9528fb3598c2956def73.php 第 124 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Member - assumed 'Member' 588e635d6daa9528fb3598c2956def73.php 第 126 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Group - assumed 'Group' 588e635d6daa9528fb3598c2956def73.php 第 127 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Label - assumed 'Label' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 588e635d6daa9528fb3598c2956def73.php 第 131 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Core - assumed 'Core' 588e635d6daa9528fb3598c2956def73.php 第 133 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Tools - assumed 'Tools' 588e635d6daa9528fb3598c2956def73.php 第 134 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant Database - assumed 'Database' 588e635d6daa9528fb3598c2956def73.php 第 136 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Use of undefined constant AdminLog - assumed 'AdminLog' 588e635d6daa9528fb3598c2956def73.php 第 137 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: category 588e635d6daa9528fb3598c2956def73.php 第 245 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: title 588e635d6daa9528fb3598c2956def73.php 第 270 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: categoryId 588e635d6daa9528fb3598c2956def73.php 第 271 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: userId 588e635d6daa9528fb3598c2956def73.php 第 272 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime 588e635d6daa9528fb3598c2956def73.php 第 273 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: createTime1 588e635d6daa9528fb3598c2956def73.php 第 274 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: recommend 588e635d6daa9528fb3598c2956def73.php 第 275 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: status 588e635d6daa9528fb3598c2956def73.php 第 276 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: istop 588e635d6daa9528fb3598c2956def73.php 第 277 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount 588e635d6daa9528fb3598c2956def73.php 第 278 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: viewCount1 588e635d6daa9528fb3598c2956def73.php 第 279 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderType 588e635d6daa9528fb3598c2956def73.php 第 280 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: orderBy 588e635d6daa9528fb3598c2956def73.php 第 281 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: pageSize 588e635d6daa9528fb3598c2956def73.php 第 282 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: category 588e635d6daa9528fb3598c2956def73.php 第 339 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined index: attach 588e635d6daa9528fb3598c2956def73.php 第 358 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.
+[ 2016-08-09T16:04:34+08:00 ] /cghc_chinagas_com_cn/admin.php/Download/index | NOTIC: [8] Undefined variable: group functions.php 第 94 行.

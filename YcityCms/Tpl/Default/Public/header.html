@@ -1,0 +1,116 @@
+<!DOCTYPE>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><present name="contentDetail">{$contentDetail.title}-</present><present name="moduleTitle">{$moduleTitle}-</present>{$sysConfig.site_name}-{$sysConfig.seo_title}-Powered by Y-city</title>
+<meta name="keywords" content="{$contentDetail.keyword|default=$sysConfig['seo_keyword']}" />
+<meta name="description" content="{$contentDetail.description|default=$sysConfig['seo_description']}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link href="__PUBLIC__/Style/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="__PUBLIC__/Js/marquee.js"></script>
+    <!--<script type="text/javascript" src="__PUBLIC__/Js/Jquery/jquery.js"></script>-->
+<script type="text/javascript" src="__PUBLIC__/Js/cookies.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        function showMenu (baseId, divId) {
+            baseID = document.getElementById(baseId);
+            divID  = document.getElementById(divId);
+            if (showMenu.timer) clearTimeout(showMenu.timer);
+            hideCur();
+            divID.style.display = 'block';
+            if(isOver(divId,'nav')){
+
+            }
+
+            showMenu.cur = divID;
+
+            if (! divID.isCreate) {
+                divID.isCreate = true;
+                //divID.timer = 0;
+                divID.onmouseover = function () {
+
+                    if (showMenu.timer) clearTimeout(showMenu.timer);
+                    hideCur();
+                    divID.style.display = 'block';
+
+                };
+
+                function hide () {
+                    showMenu.timer = divID.style.display = 'none';
+                }
+
+                divID.onmouseout = hide;
+                baseID.onmouseout = hide;
+            }
+            function hideCur () {
+                showMenu.cur && (showMenu.cur.style.display = 'none');
+            }
+        }
+
+        function isOver(div11,div22) {
+            var div1 = $('#'+div11);
+            var div2 = $('.'+div22);
+           // div1Width = div1.offsetWidth;
+            div1Width=div1.width();
+            div2Width = div2.width();
+            div1Left = div1.offset().left;
+            div1Top = div1.offset().top;
+            div2Left = div2.offset().left;
+            div1Right = div1Left+div1Width;
+            div2Right = div2Left+div2Width;
+            if(div1Right>div2Right){
+                divID.style.left=80-div1Width;
+              //  divID.style.right=0;
+            }
+        }
+    </script>
+
+</head>
+<body class="body">
+            <div class="banner">
+                <div class="logo"><a href="__ROOT__"><img src="__PUBLIC__/Images/college_logo.png"></a></div>
+                <div class="header_font"><a href="__ROOT__"><img src="__PUBLIC__/Images/header_font.png"></a></div>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li class="home"><a class="on" href="__ROOT__"><b>首页</b></a></li>
+                    <li>
+                        <span hidden="hidden" class="{$id=$pageList[0]['id']}"></span>
+                        <a href="{:U('Page/detail')}" id="nl_{$id}"  onMouseOver="showMenu('nl_{$id}','subnav{$id}');" ><b>{$pageList[0]['title']}</b></a>
+                        <div id="subnav{$id}" class="subnav">
+                            {~($length=count($pageList))}
+                    <volist name="pageList" id="row" key="key">
+                        <neq name="key" value="1">
+                            <a href="{:U('Page/detail',array('item'=>$row['id']))}">{$row['title']}</a>
+                            <neq name="key" value="$length">
+                                &nbsp;|&nbsp;
+                            </neq>
+                        </neq>
+                    </volist>
+                            </div>
+                    </li>
+                    <volist name="dataList" id="item">
+                        <li>
+                            <span hidden="hidden" class="{$id=$item[0]['id']}"></span>
+                            <a href="{:U('News/index',array('item'=>$item[0]['id']))}" id="nl_{$id}"  onMouseOver="showMenu('nl_{$id}','subnav{$id}');"><b>{$item[0]['title']}</b></a>
+                            <if condition="$item[1]['id'] neq ''">
+                            <div id="subnav{$id}" class="subnav" >
+                                {~($length=count($item))}
+                            <volist name="item" id="row" key="key">
+                                <neq name="key" value="1">
+                                    <a href="{:U('News/index',array('item'=>$row['id']))}">{$row['title']}</a>
+                                    <neq name="key" value="$length">
+                                        &nbsp;|&nbsp;
+                                    </neq>
+                                </neq>
+                            </volist>
+                            </div>
+                            </if>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+    <div class="main">
+

@@ -1,0 +1,104 @@
+<tagLib name="html,cx" />
+<include file="Public:header" />
+<include file="Public:sider" />
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#mainFrom").validate({
+            rules: {
+                title: "required",
+                link_url: {
+                    required: true,
+                    url: true
+                }
+            },
+            messages: {
+                title: "网站名称必须填写",
+                link_url: {
+                    required: "网址必须填写",
+                    url: '网址不符合规范。'
+                }
+            }
+        });
+        colorPicker();
+    });
+</script>
+		<div id="main-content">
+        <!-- Main Content Section with everything -->
+			<noscript>
+            <!-- Show a notification if the user has disabled javascript -->
+                <div class="notification error png_bg">
+					<div>
+						您的浏览器不支持Javascript或者已经禁用了Javascript。请升级您的浏览器或者<a href="http://www.google.com/support/bin/answer.py?answer=23852" title="如何启用 JavaScript">启用</a>Javascript支持才能正确浏览页面.
+					</div>
+				</div>
+			</noscript>
+			<!-- Page Head -->
+			<ul class="shortcut-buttons-set">
+				
+                <li><a class="shortcut-button" href="{:U("Link/index")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/arrow_left_48.png" alt="icon" /><br />
+					返回链接列表
+				</span></a></li>
+                <li><a class="shortcut-button" href="{:U("Link/insert")}"><span>
+					<img src="__PUBLIC__/Admin/images/icons/add_48.png" alt="icon" /><br />
+					添加链接
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+			<div class="clear"></div>
+            <!-- End .clear -->
+			<div class="content-box"><!-- Start Content Box -->
+				<div class="content-box-header">
+					<h3>友情链接管理</h3>
+				</div> <!-- End .content-box-header -->
+				<div class="content-box-content">
+                	<form method="post" action="{:U("Link/doModify")}" enctype="multipart/form-data" id="mainFrom">
+					<div class="tab-content default-tab" id="tab1"> <!-- This is the target div. id must match the href of this div's tab -->
+						<fieldset> <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+                            <p>
+								<label>网站名称</label>
+								<input class="text-input medium-input" name="title" id="title" value="{$vo.title}" />
+                                <br /><small>网站名称必须填写。若为文字链接，则前台显示文字为网站名称</small>
+							</p>
+                            <p>
+								<label>标题样式</label>
+								<div style=" display:block; float:left" title="点击取颜色" class="color_picker" id="color_picker" onclick="colorPicker()">&nbsp;</div>颜色
+                                <input class="input" type="hidden" value="{$vo.title_style_serialize|styleSelected='color'}" name="style_color" id="style_color" size="10"/>&nbsp;
+                                <input type="checkbox" name="style_bold" id="style_bold" value="bold" {$vo.title_style_serialize|styleSelected='bold'} /> 加粗
+                                <input type="checkbox" name="style_underline" id="style_underline" value="underline" {$vo.title_style_serialize|styleSelected='underline'} /> 下划线
+                                <br /><small>颜色选择白色（取色框右下角）为取消设置，使用默认颜色，并非设置白色。</small>
+							</p>
+                            <p>
+								<label>网址地址</label>
+								<input class="text-input medium-input" type="text" name="link_url" id="link_url" value="{$vo.link_url}" />
+                                <br /><small>网址必须填写完整。如：正确的 http://abc.com 或 http://www.abc.com。</small>
+                                <br /><small style="color:#f00; font-weight:bold">务必填写"http://"，否则链接无法正确跳转。</small>
+							</p>
+                            <p>
+								<label>描述</label>
+								<textarea class="text-input textarea" name="description" id="description" cols="79" rows="4">{$vo.description}</textarea>
+							</p>
+                            <p>
+								<label>其它参数</label>
+								<select name="status" id="status">
+                                	<option value="0" {$vo.status|selected=0}>显示</option>
+                                	<option value="1" {$vo.status|selected=1}>隐藏</option>
+                                </select>
+                                排序
+                                <input class="text-input" type="text" name="display_order" id="display_order" value="{$vo.display_order}" size="5" maxlength="12"  />
+                                <br /><small>排序以排列序数倒序排列，默认为0，数字越大，则越靠前</small>
+							</p>
+                        </fieldset>
+                        <div class="clear"></div><!-- End .clear -->
+                        <p>
+                            <input class="button" type="submit" id="submit" name="submit" value="提交更新" />
+                            <input class="button" type="reset" id="submit" name="submit" value="还原重填"/>
+                            <input name="id" type="hidden" id="id" value="{$vo.id}" />
+							<input name="old_file" type="hidden" id="old_file" value="{$vo.attach_file}" />
+                        </p>
+					</div> <!-- End #tab1 -->
+					</form>
+				</div> <!-- End .content-box-content -->
+			</div> <!-- End .content-box -->
+			<div class="clear"></div><!-- End .clear -->
+<include file="Public:footer" />
